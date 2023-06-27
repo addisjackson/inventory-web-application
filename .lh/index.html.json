@@ -1,0 +1,538 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 130,
+            "patches": [
+                {
+                    "date": 1687824624531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1687824630457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-D\n\\ No newline at end of file\n+!\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824639079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-!\n\\ No newline at end of file\n+!C\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824645201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-!C\n\\ No newline at end of file\n+!DOCT\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824650472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-!DOCT\n\\ No newline at end of file\n+!DOCTY\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824657022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-!DOCTY\n\\ No newline at end of file\n+!DOCTYPE=\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824665939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-!DOCTYPE=\n\\ No newline at end of file\n+!DOCTYPE=\"html\"\n"
+                },
+                {
+                    "date": 1687824673252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n !DOCTYPE=\"html\"\n+<html\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824679759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n !DOCTYPE=\"html\"\n-<html\n\\ No newline at end of file\n+<html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824685454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,4 @@\n !DOCTYPE=\"html\"\n-<html>\n\\ No newline at end of file\n+<html>\n+<head>\n+    <title>My First Webpage</title>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824693675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n !DOCTYPE=\"html\"\n <html>\n <head>\n-    <title>My First Webpage</title>\n\\ No newline at end of file\n+    <title>M</title>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824700984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n !DOCTYPE=\"html\"\n <html>\n <head>\n-    <title>M</title>\n\\ No newline at end of file\n+    <title>Inventory </title>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824708519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n !DOCTYPE=\"html\"\n <html>\n <head>\n-    <title>Inventory </title>\n\\ No newline at end of file\n+    <title>Inventory Web Appplication</title>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824715425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n !DOCTYPE=\"html\"\n <html>\n <head>\n-    <title>Inventory Web Appplication</title>\n\\ No newline at end of file\n+    <title>Inventory Web Appplication</title>\n+    <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824727023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n !DOCTYPE=\"html\"\n <html>\n <head>\n     <title>Inventory Web Appplication</title>\n-    <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n\\ No newline at end of file\n+    <link rel=\"stylesheet\" href=\".css\">\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824735993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n !DOCTYPE=\"html\"\n <html>\n <head>\n     <title>Inventory Web Appplication</title>\n-    <link rel=\"stylesheet\" href=\".css\">\n\\ No newline at end of file\n+    <link rel=\"stylesheet\" href=\"./style.css\">\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824750388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n <html>\n <head>\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n-    \n\\ No newline at end of file\n+    <\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824760707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n <html>\n <head>\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n-    <\n\\ No newline at end of file\n+    <script src=\"./in.js\"></script>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824775328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n <html>\n <head>\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n-    <script src=\"./in.js\"></script>\n\\ No newline at end of file\n+    <script src=\"./index.js\" ></script>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824785408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+!DOCTYPE=\"html\"\n+<html>\n+<head>\n+    <title>Inventory Web Appplication</title>\n+    <link rel=\"stylesheet\" href=\"./style.css\">\n+    <script defer src=\"./index.js\"></script>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824791275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,5 @@\n <head>\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     <script defer src=\"./index.js\"></script>\n-!DOCTYPE=\"html\"\n-<html>\n-<head>\n-    <title>Inventory Web Appplication</title>\n-    <link rel=\"stylesheet\" href=\"./style.css\">\n-    <script src=\"./index.js\" ></script>\n\\ No newline at end of file\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824796555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n <head>\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     <script defer src=\"./index.js\"></script>\n-    \n\\ No newline at end of file\n+</head>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824808426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,47 @@\n <head>\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     <script defer src=\"./index.js\"></script>\n-</head>\n\\ No newline at end of file\n+</head>\n+<body>\n+    <div class=\"container\">\n+        <div class=\"header\">\n+            <h1>Inventory Web Application</h1>\n+        </div>\n+        <div class=\"content\">\n+            <div class=\"form\">\n+                <form id=\"form\">\n+                    <div class=\"form-control\">\n+                        <label for=\"name\">Name</label>\n+                        <input type=\"text\" id=\"name\" placeholder=\"Enter name\">\n+                        <small>Error message</small>\n+                    </div>\n+                    <div class=\"form-control\">\n+                        <label for=\"price\">Price</label>\n+                        <input type=\"number\" id=\"price\" placeholder=\"Enter price\">\n+                        <small>Error message</small>\n+                    </div>\n+                    <div class=\"form-control\">\n+                        <label for=\"quantity\">Quantity</label>\n+                        <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n+                        <small>Error message</small>\n+                    </div>\n+                    <button type=\"submit\">Submit</button>\n+                </form>\n+            </div>\n+            <div class=\"table\">\n+                <table id=\"table\">\n+                    <thead>\n+                        <tr>\n+                            <th>Name</th>\n+                            <th>Price</th>\n+                            <th>Quantity</th>\n+                            <th>Action</th>\n+                        </tr>\n+                    </thead>\n+                    <tbody id=\"tbody\">\n+                    </tbody>\n+                </table>\n+            </div>\n+        </div>\n+    </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1687824857056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         <div class=\"content\">\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n-                        <label for=\"name\">Name</label>\n+                        <label for=\"name\">I</label>\n                         <input type=\"text\" id=\"name\" placeholder=\"Enter name\">\n                         <small>Error message</small>\n                     </div>\n                     <div class=\"form-control\">\n"
+                },
+                {
+                    "date": 1687824862326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         <div class=\"content\">\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n-                        <label for=\"name\">I</label>\n+                        <label for=\"name\">Ice-Crea</label>\n                         <input type=\"text\" id=\"name\" placeholder=\"Enter name\">\n                         <small>Error message</small>\n                     </div>\n                     <div class=\"form-control\">\n"
+                },
+                {
+                    "date": 1687824869116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         <div class=\"content\">\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n-                        <label for=\"name\">Ice-Crea</label>\n+                        <label for=\"name\">Ice-Cream Inventory</label>\n                         <input type=\"text\" id=\"name\" placeholder=\"Enter name\">\n                         <small>Error message</small>\n                     </div>\n                     <div class=\"form-control\">\n"
+                },
+                {
+                    "date": 1687824902223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Inventory</label>\n-                        <input type=\"text\" id=\"name\" placeholder=\"Enter name\">\n+                        <input type=\"text\" id=\"name\" placeholder=\"I\">\n                         <small>Error message</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687824910740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Inventory</label>\n-                        <input type=\"text\" id=\"name\" placeholder=\"I\">\n+                        <input type=\"text\" id=\"name\" placeholder=\"ice\">\n                         <small>Error message</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687824917425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Inventory</label>\n-                        <input type=\"text\" id=\"name\" placeholder=\"ice\">\n+                        <input type=\"text\" id=\"name\" placeholder=\"iceCreamName\">\n                         <small>Error message</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687824931034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Inventory</label>\n                         <input type=\"text\" id=\"name\" placeholder=\"iceCreamName\">\n-                        <small>Error message</small>\n+                        <small>Please </small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"Enter price\">\n"
+                },
+                {
+                    "date": 1687824937804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Inventory</label>\n                         <input type=\"text\" id=\"name\" placeholder=\"iceCreamName\">\n-                        <small>Please </small>\n+                        <small>Please input icecream </small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"Enter price\">\n"
+                },
+                {
+                    "date": 1687824945751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Inventory</label>\n                         <input type=\"text\" id=\"name\" placeholder=\"iceCreamName\">\n-                        <small>Please input icecream </small>\n+                        <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"Enter price\">\n"
+                },
+                {
+                    "date": 1687824989713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n                         <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n-                        <input type=\"number\" id=\"price\" placeholder=\"Enter price\">\n+                        <input type=\"number\" id=\"price\" placeholder=\"Enter price per \">\n                         <small>Error message</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"quantity\">Quantity</label>\n"
+                },
+                {
+                    "date": 1687825002348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,10 @@\n                         <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n-                        <input type=\"number\" id=\"price\" placeholder=\"Enter price per \">\n-                        <small>Error message</small>\n+                        <input type=\"number\" id=\"price\" placeholder=\"Enter price per gallon\">\n+                        <small>Musrt</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"quantity\">Quantity</label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n"
+                },
+                {
+                    "date": 1687825009436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"Enter price per gallon\">\n-                        <small>Musrt</small>\n+                        <small>Must enter </small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"quantity\">Quantity</label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n"
+                },
+                {
+                    "date": 1687825014877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"Enter price per gallon\">\n-                        <small>Must enter </small>\n+                        <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"quantity\">Quantity</label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n"
+                },
+                {
+                    "date": 1687825033356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n                         <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n-                        <input type=\"number\" id=\"price\" placeholder=\"Enter price per gallon\">\n+                        <input type=\"number\" id=\"price\" placeholder=\"Enter price\">\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"quantity\">Quantity</label>\n"
+                },
+                {
+                    "date": 1687825039755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n                         <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n-                        <input type=\"number\" id=\"price\" placeholder=\"Enter price\">\n+                        <input type=\"number\" id=\"price\" placeholder=\"please nter price\">\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"quantity\">Quantity</label>\n"
+                },
+                {
+                    "date": 1687825058852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,13 +19,13 @@\n                         <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n-                        <input type=\"number\" id=\"price\" placeholder=\"please nter price\">\n+                        <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n-                        <label for=\"quantity\">Quantity</label>\n+                        <label for=\"quantity\"> </label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n                         <small>Error message</small>\n                     </div>\n                     <button type=\"submit\">Submit</button>\n"
+                },
+                {
+                    "date": 1687825065118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n-                        <label for=\"quantity\"> </label>\n+                        <label for=\"quantity\">Q</label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n                         <small>Error message</small>\n                     </div>\n                     <button type=\"submit\">Submit</button>\n"
+                },
+                {
+                    "date": 1687825072184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n-                        <label for=\"quantity\">Q</label>\n+                        <label for=\"quantity\">q</label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n                         <small>Error message</small>\n                     </div>\n                     <button type=\"submit\">Submit</button>\n"
+                },
+                {
+                    "date": 1687825078876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n-                        <label for=\"quantity\">q</label>\n+                        <label for=\"quantity\"></q></label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n                         <small>Error message</small>\n                     </div>\n                     <button type=\"submit\">Submit</button>\n"
+                },
+                {
+                    "date": 1687825090614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n-                        <label for=\"quantity\"></q></label>\n+                        <label for=\"quantity\"></label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n                         <small>Error message</small>\n                     </div>\n                     <button type=\"submit\">Submit</button>\n"
+                },
+                {
+                    "date": 1687825096148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n-                        <label for=\"quantity\"></label>\n+                        <label for=\"quantity\">Quantity</label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n                         <small>Error message</small>\n                     </div>\n                     <button type=\"submit\">Submit</button>\n"
+                },
+                {
+                    "date": 1687825105634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n-                        <label for=\"quantity\">Quantity</label>\n+                        <label for=\"quantity\">Quantity /</label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n                         <small>Error message</small>\n                     </div>\n                     <button type=\"submit\">Submit</button>\n"
+                },
+                {
+                    "date": 1687825113117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n-                        <label for=\"quantity\">Quantity /</label>\n+                        <label for=\"quantity\">Quantity /per</label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n                         <small>Error message</small>\n                     </div>\n                     <button type=\"submit\">Submit</button>\n"
+                },
+                {
+                    "date": 1687825118891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n-                        <label for=\"quantity\">Quantity /per</label>\n+                        <label for=\"quantity\">Quantityb  9</label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n                         <small>Error message</small>\n                     </div>\n                     <button type=\"submit\">Submit</button>\n"
+                },
+                {
+                    "date": 1687825124825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n-                        <label for=\"quantity\">Quantityb  9</label>\n+                        <label for=\"quantity\">Quantity (</label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n                         <small>Error message</small>\n                     </div>\n                     <button type=\"submit\">Submit</button>\n"
+                },
+                {
+                    "date": 1687825149484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,10 +23,10 @@\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n-                        <label for=\"quantity\">Quantity (</label>\n-                        <input type=\"number\" id=\"quantity\" placeholder=\"Enter quantity\">\n+                        <label for=\"quantity\">Quantity (gal)</label>\n+                        <input type=\"number\" id=\"quantity\" placeholder=\"please nter quantity\">\n                         <small>Error message</small>\n                     </div>\n                     <button type=\"submit\">Submit</button>\n                 </form>\n"
+                },
+                {
+                    "date": 1687825186531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,12 +24,12 @@\n                         <small>Must enter price</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"quantity\">Quantity (gal)</label>\n-                        <input type=\"number\" id=\"quantity\" placeholder=\"please nter quantity\">\n+                        <input type=\"number\" id=\"quantity\" placeholder=\"please enter quantity\">\n                         <small>Error message</small>\n                     </div>\n-                    <button type=\"submit\">Submit</button>\n+                    <button type=\"submit\">A</button>\n                 </form>\n             </div>\n             <div class=\"table\">\n                 <table id=\"table\">\n"
+                },
+                {
+                    "date": 1687825193148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                         <label for=\"quantity\">Quantity (gal)</label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"please enter quantity\">\n                         <small>Error message</small>\n                     </div>\n-                    <button type=\"submit\">A</button>\n+                    <button type=\"submit\">Add to Fr</button>\n                 </form>\n             </div>\n             <div class=\"table\">\n                 <table id=\"table\">\n"
+                },
+                {
+                    "date": 1687825489263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-!DOCTYPE=\"html\"\n+<!DOCTYPE=\"html\"\n <html>\n <head>\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n@@ -27,9 +27,9 @@\n                         <label for=\"quantity\">Quantity (gal)</label>\n                         <input type=\"number\" id=\"quantity\" placeholder=\"please enter quantity\">\n                         <small>Error message</small>\n                     </div>\n-                    <button type=\"submit\">Add to Fr</button>\n+                    <button type=\"submit\">Add to Fridge</button>\n                 </form>\n             </div>\n             <div class=\"table\">\n                 <table id=\"table\">\n"
+                },
+                {
+                    "date": 1687825498295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<!DOCTYPE=\"html\"\n+<!DOCTYPE html\"\n <html>\n <head>\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n"
+                },
+                {
+                    "date": 1687825511710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n-<!DOCTYPE html\"\n-<html>\n+<!DOCTYPE html>\n+<html lang>\n <head>\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     <script defer src=\"./index.js\"></script>\n"
+                },
+                {
+                    "date": 1687825519485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!DOCTYPE html>\n-<html lang>\n+<html lang=\"en\">\n <head>\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     <script defer src=\"./index.js\"></script>\n"
+                },
+                {
+                    "date": 1687825535620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n <!DOCTYPE html>\n <html lang=\"en\">\n <head>\n+    \n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     <script defer src=\"./index.js\"></script>\n </head>\n"
+                },
+                {
+                    "date": 1687825547107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n <!DOCTYPE html>\n <html lang=\"en\">\n <head>\n-    \n+    <meta charset=\"UTF-8\">\n+    M\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     <script defer src=\"./index.js\"></script>\n </head>\n"
+                },
+                {
+                    "date": 1687825553815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n <!DOCTYPE html>\n <html lang=\"en\">\n <head>\n     <meta charset=\"UTF-8\">\n-    M\n+    <meta name=\"viewport\" content=\"width=, initial-scale=1.0\">\n+    \n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     <script defer src=\"./index.js\"></script>\n </head>\n"
+                },
+                {
+                    "date": 1687825559371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n <html lang=\"en\">\n <head>\n     <meta charset=\"UTF-8\">\n     <meta name=\"viewport\" content=\"width=, initial-scale=1.0\">\n-    \n+    <meta\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     <script defer src=\"./index.js\"></script>\n </head>\n"
+                },
+                {
+                    "date": 1687825567233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n <html lang=\"en\">\n <head>\n     <meta charset=\"UTF-8\">\n     <meta name=\"viewport\" content=\"width=, initial-scale=1.0\">\n-    <meta\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     <script defer src=\"./index.js\"></script>\n </head>\n"
+                },
+                {
+                    "date": 1687825574237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta name=\"viewport\" content=\"width=, initial-scale=1.0\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n+    <.\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     <script defer src=\"./index.js\"></script>\n </head>\n"
+                },
+                {
+                    "date": 1687825608706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta name=\"viewport\" content=\"width=, initial-scale=1.0\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n-    <.\n+    <meta\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     <script defer src=\"./index.js\"></script>\n </head>\n"
+                },
+                {
+                    "date": 1687825623038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,12 +3,12 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta name=\"viewport\" content=\"width=, initial-scale=1.0\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n-    <meta\n+    <meta http-equiv=\"refresh\" content=\"5\">\n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n-    <script defer src=\"./index.js\"></script>\n+    \n </head>\n <body>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1687825639408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,14 +3,15 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta name=\"viewport\" content=\"width=, initial-scale=1.0\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n-    <meta http-equiv=\"refresh\" content=\"5\">\n+    \n     <title>Inventory Web Appplication</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     \n </head>\n <body>\n+    <script defer src=\"./index.js\"></script>\n     <div class=\"container\">\n         <div class=\"header\">\n             <h1>Inventory Web Application</h1>\n         </div>\n"
+                },
+                {
+                    "date": 1687825649431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,9 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta name=\"viewport\" content=\"width=, initial-scale=1.0\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n-    \n-    <title>Inventory Web Appplication</title>\n+    <title>Inventory Web Application</title>\n     <link rel=\"stylesheet\" href=\"./style.css\">\n     \n </head>\n <body>\n"
+                },
+                {
+                    "date": 1687826139244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <div class=\"content\">\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n-                        <label for=\"name\">Ice-Cream Inventory</label>\n+                        <label for=\"name\">Ice-Cream Name</label>\n                         <input type=\"text\" id=\"name\" placeholder=\"iceCreamName\">\n                         <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n"
+                },
+                {
+                    "date": 1687826145427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <div class=\"content\">\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n-                        <label for=\"name\">Ice-Cream Name</label>\n+                        <label for=\"name\">Ice-Cream Flavor</label>\n                         <input type=\"text\" id=\"name\" placeholder=\"iceCreamName\">\n                         <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n"
+                },
+                {
+                    "date": 1687826150703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input type=\"text\" id=\"name\" placeholder=\"iceCreamName\">\n+                        <input list=\"text\" id=\"name\" placeholder=\"iceCreamName\">\n                         <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826165488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"text\" id=\"name\" placeholder=\"iceCreamName\">\n+                        <input list=\"C\" id=\"name\" placeholder=\"iceCreamName\">\n                         <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826172628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"C\" id=\"name\" placeholder=\"iceCreamName\">\n+                        <input list=\"ice\" id=\"name\" placeholder=\"iceCreamName\">\n                         <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826178141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"ice\" id=\"name\" placeholder=\"iceCreamName\">\n+                        <input list=\"iceCrea\" id=\"name\" placeholder=\"iceCreamName\">\n                         <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826183861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"iceCrea\" id=\"name\" placeholder=\"iceCreamName\">\n+                        <input list=\"iceCream\" id=\"name\" placeholder=\"iceCreamName\">\n                         <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826205874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"iceCream\" id=\"name\" placeholder=\"iceCreamName\">\n+                        <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n                         <small>Please input ice-cream name</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826217067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n-                        <small>Please input ice-cream name</small>\n+                        <small>Please pic</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n"
+                },
+                {
+                    "date": 1687826225089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n-                        <small>Please pic</small>\n+                        <small>Please pick a flavor below</small>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n"
+                },
+                {
+                    "date": 1687826279959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n+                        \n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n"
+                },
+                {
+                    "date": 1687826285756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n-                        \n+                        <data\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n"
+                },
+                {
+                    "date": 1687826292424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n-                        <data\n+                        <datalist id\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n"
+                },
+                {
+                    "date": 1687826300121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n-                        <datalist id\n+                        <datalist id=\"ice\"\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n"
+                },
+                {
+                    "date": 1687826305519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n-                        <datalist id=\"ice\"\n+                        <datalist id=\"iceCreamName\"\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n"
+                },
+                {
+                    "date": 1687826321801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n-                        <datalist id=\"iceCreamName\"\n+                        <datalist id=\"iceCreamNames\"\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n"
+                },
+                {
+                    "date": 1687826333762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n-                        <datalist id=\"iceCreamNames\"\n+                        <datalist id=\"iceCreamNames\"></datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n"
+                },
+                {
+                    "date": 1687826351441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,11 @@\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n-                        <datalist id=\"iceCreamNames\"></datalist>\n+                        <datalist id=\"iceCreamNames\">\n+                            <opytion \n+                        </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n"
+                },
+                {
+                    "date": 1687826357759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n                         <datalist id=\"iceCreamNames\">\n-                            <opytion \n+                            <opytion value = \"Vanilla\">\n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826365269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,10 @@\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n                         <datalist id=\"iceCreamNames\">\n-                            <opytion value = \"Vanilla\">\n+                            <option value = \"Vanilla\">\n+                                \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826371247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,9 @@\n                         <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n                         <datalist id=\"iceCreamNames\">\n                             <option value = \"Vanilla\">\n+                            <option value = \"Chocolate\">\n                                 \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n"
+                },
+                {
+                    "date": 1687826377543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <small>Please pick a flavor below</small>\n                         <datalist id=\"iceCreamNames\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n-                                \n+                            <    \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826383799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n                         <small>Please pick a flavor below</small>\n                         <datalist id=\"iceCreamNames\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n-                            <    \n+                            <option    \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826389549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,10 @@\n                         <small>Please pick a flavor below</small>\n                         <datalist id=\"iceCreamNames\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n-                            <option    \n+                            <option value = \"Strawberry\">\n+                            <option value = \"Mint Chocolate Chip\">    \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826396282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,11 @@\n                         <datalist id=\"iceCreamNames\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n                             <option value = \"Strawberry\">\n-                            <option value = \"Mint Chocolate Chip\">    \n+                            <option value = \"Mint Chocolate Chip\">\n+                            <option value = \"Cookies and Cream\">\n+                            <option value = \"Cookie Dough\">    \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826403528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,11 @@\n                             <option value = \"Chocolate\">\n                             <option value = \"Strawberry\">\n                             <option value = \"Mint Chocolate Chip\">\n                             <option value = \"Cookies and Cream\">\n-                            <option value = \"Cookie Dough\">    \n+                            <option value = \"Cookie Dough\">\n+                            <option value = \"Butter Pecan\">\n+                                    \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826408976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,9 @@\n                             <option value = \"Mint Chocolate Chip\">\n                             <option value = \"Cookies and Cream\">\n                             <option value = \"Cookie Dough\">\n                             <option value = \"Butter Pecan\">\n+                            <option value = \"Birthday Cake\">\n                                     \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n"
+                },
+                {
+                    "date": 1687826415241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,10 @@\n                             <option value = \"Cookies and Cream\">\n                             <option value = \"Cookie Dough\">\n                             <option value = \"Butter Pecan\">\n                             <option value = \"Birthday Cake\">\n-                                    \n+                            <option value = \"Rocky Road\">\n+                                \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826420720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n                             <option value = \"Cookie Dough\">\n                             <option value = \"Butter Pecan\">\n                             <option value = \"Birthday Cake\">\n                             <option value = \"Rocky Road\">\n-                                \n+                            <option value = \"Coffee\">    \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826427403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,10 @@\n                             <option value = \"Cookie Dough\">\n                             <option value = \"Butter Pecan\">\n                             <option value = \"Birthday Cake\">\n                             <option value = \"Rocky Road\">\n-                            <option value = \"Coffee\">    \n+                            <option value = \"Coffee\">\n+                            <option value = \"Pistachio\">    \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826433976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,11 @@\n                             <option value = \"Butter Pecan\">\n                             <option value = \"Birthday Cake\">\n                             <option value = \"Rocky Road\">\n                             <option value = \"Coffee\">\n-                            <option value = \"Pistachio\">    \n+                            <option value = \"Pistachio\">\n+                            <option value = \"Chocolate Chip\">\n+                                    \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826439942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,10 @@\n                             <option value = \"Rocky Road\">\n                             <option value = \"Coffee\">\n                             <option value = \"Pistachio\">\n                             <option value = \"Chocolate Chip\">\n-                                    \n+                            <option value = \"Chocolate Chip Cookie Dough\">\n+                                \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826445713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,10 @@\n                             <option value = \"Coffee\">\n                             <option value = \"Pistachio\">\n                             <option value = \"Chocolate Chip\">\n                             <option value = \"Chocolate Chip Cookie Dough\">\n-                                \n+                            <option value = \"Chocolate Peanut Butter\">\n+                            <option value = \"Chocolate Marshmallow\">    \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826452360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,12 @@\n                             <option value = \"Pistachio\">\n                             <option value = \"Chocolate Chip\">\n                             <option value = \"Chocolate Chip Cookie Dough\">\n                             <option value = \"Chocolate Peanut Butter\">\n-                            <option value = \"Chocolate Marshmallow\">    \n+                            <option value = \"Chocolate Marshmallow\">\n+                            <option value = \"Chocolate Chip Mint\">\n+                            \n+                                \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687826461523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,10 +37,9 @@\n                             <option value = \"Chocolate Chip Cookie Dough\">\n                             <option value = \"Chocolate Peanut Butter\">\n                             <option value = \"Chocolate Marshmallow\">\n                             <option value = \"Chocolate Chip Mint\">\n-                            \n-                                \n+                            <option value = \"Chocolate Fudge Brownie\">  \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687827208027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"iceCreamName\" id=\"name\" placeholder=\"Choose Flavor\">\n+                        <input list=\"iceCreamName\" id=\"i\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n                         <datalist id=\"iceCreamNames\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n"
+                },
+                {
+                    "date": 1687827216141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"iceCreamName\" id=\"i\" placeholder=\"Choose Flavor\">\n+                        <input list=\"iceCreamNames\" id=\"iceCreamNames\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n                         <datalist id=\"iceCreamNames\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n"
+                },
+                {
+                    "date": 1687827319866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"iceCreamNames\" id=\"iceCreamNames\" placeholder=\"Choose Flavor\">\n+                        <input list=\"iceCreamNames\" id=\"iceCreamNames\"  placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n                         <datalist id=\"iceCreamNames\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n"
+                },
+                {
+                    "date": 1687827326797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"iceCreamNames\" id=\"iceCreamNames\"  placeholder=\"Choose Flavor\">\n+                        <input list=\"iceCreamNames\" id=\"iceCreamNames\" name=\"\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n                         <datalist id=\"iceCreamNames\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n"
+                },
+                {
+                    "date": 1687827333814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"iceCreamNames\" id=\"iceCreamNames\" name=\"\" placeholder=\"Choose Flavor\">\n+                        <input list=\"iceCreamNames\" id=\"iceCreamNames\" name=\"ice\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n                         <datalist id=\"iceCreamNames\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n"
+                },
+                {
+                    "date": 1687827340831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"iceCreamNames\" id=\"iceCreamNames\" name=\"ice\" placeholder=\"Choose Flavor\">\n+                        <input list=\"iceCreamNames\" id=\"iceCreamNames\" name=\"iceCream\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n                         <datalist id=\"iceCreamNames\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n"
+                },
+                {
+                    "date": 1687827363267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"iceCreamNames\" id=\"iceCreamNames\" name=\"iceCream\" placeholder=\"Choose Flavor\">\n+                        <input list=\"ice-cream\" id=\"iceCreamNames\" name=\"iceCreamNames\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor below</small>\n                         <datalist id=\"iceCreamNames\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n"
+                },
+                {
+                    "date": 1687827397032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,10 +18,10 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"ice-cream\" id=\"iceCreamNames\" name=\"iceCreamNames\" placeholder=\"Choose Flavor\">\n-                        <small>Please pick a flavor below</small>\n+                        <input list=\"ice-cream-flavors\" id=\"iceCreamNames\" name=\"iceCreamNames\" placeholder=\"Choose Flavor\">\n+                        <small>Please pick a flavor fromnbelow</small>\n                         <datalist id=\"iceCreamNames\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n                             <option value = \"Strawberry\">\n"
+                },
+                {
+                    "date": 1687827426662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,10 @@\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"ice-cream-flavors\" id=\"iceCreamNames\" name=\"iceCreamNames\" placeholder=\"Choose Flavor\">\n-                        <small>Please pick a flavor fromnbelow</small>\n-                        <datalist id=\"iceCreamNames\">\n+                        <small>Please pick a flavor from below</small>\n+                        <datalist id=\"ice-cream\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n                             <option value = \"Strawberry\">\n                             <option value = \"Mint Chocolate Chip\">\n"
+                },
+                {
+                    "date": 1687827689369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"ice-cream-flavors\" id=\"iceCreamNames\" name=\"iceCreamNames\" placeholder=\"Choose Flavor\">\n                         <small>Please pick a flavor from below</small>\n-                        <datalist id=\"ice-cream\">\n+                        <datalist id=\"ice-cream-flavors\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n                             <option value = \"Strawberry\">\n                             <option value = \"Mint Chocolate Chip\">\n@@ -37,9 +37,10 @@\n                             <option value = \"Chocolate Chip Cookie Dough\">\n                             <option value = \"Chocolate Peanut Butter\">\n                             <option value = \"Chocolate Marshmallow\">\n                             <option value = \"Chocolate Chip Mint\">\n-                            <option value = \"Chocolate Fudge Brownie\">  \n+                            <option value = \"Chocolate Fudge Brownie\">\n+                                  \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687827698277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n                             <option value = \"Chocolate Peanut Butter\">\n                             <option value = \"Chocolate Marshmallow\">\n                             <option value = \"Chocolate Chip Mint\">\n                             <option value = \"Chocolate Fudge Brownie\">\n-                                  \n+                            <option value = \"Chocolate Raspberry\">  \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687827711182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n                             <option value = \"Chocolate Peanut Butter\">\n                             <option value = \"Chocolate Marshmallow\">\n                             <option value = \"Chocolate Chip Mint\">\n                             <option value = \"Chocolate Fudge Brownie\">\n-                            <option value = \"Chocolate Raspberry\">  \n+                            <option value = \"Flavor \">  \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687828114569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"ice-cream-flavors\" id=\"iceCreamNames\" name=\"iceCreamNames\" placeholder=\"Choose Flavor\">\n+                        <input list=\"ice-cream-flavors\" id=\"iceCreamNames\" name=\"iceCreamNames\" placeholder=\"Choose Flavor\" >\n                         <small>Please pick a flavor from below</small>\n                         <datalist id=\"ice-cream-flavors\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n@@ -38,9 +38,9 @@\n                             <option value = \"Chocolate Peanut Butter\">\n                             <option value = \"Chocolate Marshmallow\">\n                             <option value = \"Chocolate Chip Mint\">\n                             <option value = \"Chocolate Fudge Brownie\">\n-                            <option value = \"Flavor \">  \n+                            <option value = \"Flavor not listed\">  \n                         </datalist>\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n"
+                },
+                {
+                    "date": 1687828120349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"ice-cream-flavors\" id=\"iceCreamNames\" name=\"iceCreamNames\" placeholder=\"Choose Flavor\" >\n+                        <input list=\"ice-cream-flavors\" id=\"iceCreamNames\" name=\"iceCreamNames\" placeholder=\"Choose Flavor\" onchange=\"if (this.value=='10000'){userselect.style.visibility='visible'}else {userselect.style.visibility='hidden'};\">>\n                         <small>Please pick a flavor from below</small>\n                         <datalist id=\"ice-cream-flavors\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n"
+                },
+                {
+                    "date": 1687828150417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"form\">\n                 <form id=\"form\">\n                     <div class=\"form-control\">\n                         <label for=\"name\">Ice-Cream Flavor</label>\n-                        <input list=\"ice-cream-flavors\" id=\"iceCreamNames\" name=\"iceCreamNames\" placeholder=\"Choose Flavor\" onchange=\"if (this.value=='10000'){userselect.style.visibility='visible'}else {userselect.style.visibility='hidden'};\">>\n+                        <input list=\"ice-cream-flavors\" id=\"iceCreamNames\" name=\"iceCreamNames\" placeholder=\"Choose Flavor\" onchange=\"if (this.value=='10000'){userselect.style.visibility='visible'}else {userselect.style.visibility='hidden'};\">\n                         <small>Please pick a flavor from below</small>\n                         <datalist id=\"ice-cream-flavors\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n"
+                },
+                {
+                    "date": 1687828234230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,9 @@\n                             <option value = \"Chocolate Chip Mint\">\n                             <option value = \"Chocolate Fudge Brownie\">\n                             <option value = \"Flavor not listed\">  \n                         </datalist>\n+                        \n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n"
+                },
+                {
+                    "date": 1687828299359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,11 +38,11 @@\n                             <option value = \"Chocolate Peanut Butter\">\n                             <option value = \"Chocolate Marshmallow\">\n                             <option value = \"Chocolate Chip Mint\">\n                             <option value = \"Chocolate Fudge Brownie\">\n-                            <option value = \"Flavor not listed\">  \n+                            <option value = 10000\"Flavor not listed\">  \n                         </datalist>\n-                        \n+                        <input type=\"textbox\" name=\"10000\" id=\"input\" style=\"visibility:hidden;\">\n                     </div>\n                     <div class=\"form-control\">\n                         <label for=\"price\">Price</label>\n                         <input type=\"number\" id=\"price\" placeholder=\"please enter price\">\n"
+                },
+                {
+                    "date": 1687828311096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n                             <option value = \"Chocolate Peanut Butter\">\n                             <option value = \"Chocolate Marshmallow\">\n                             <option value = \"Chocolate Chip Mint\">\n                             <option value = \"Chocolate Fudge Brownie\">\n-                            <option value = 10000\"Flavor not listed\">  \n+                            <option value = \"10000\"\"Flavor not listed\">  \n                         </datalist>\n                         <input type=\"textbox\" name=\"10000\" id=\"input\" style=\"visibility:hidden;\">\n                     </div>\n                     <div class=\"form-control\">\n"
+                },
+                {
+                    "date": 1687828318656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n                             <option value = \"Chocolate Peanut Butter\">\n                             <option value = \"Chocolate Marshmallow\">\n                             <option value = \"Chocolate Chip Mint\">\n                             <option value = \"Chocolate Fudge Brownie\">\n-                            <option value = \"10000\"\"Flavor not listed\">  \n+                            <option value = \"10000\"Flavor not listed\">  \n                         </datalist>\n                         <input type=\"textbox\" name=\"10000\" id=\"input\" style=\"visibility:hidden;\">\n                     </div>\n                     <div class=\"form-control\">\n"
+                },
+                {
+                    "date": 1687828329531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n                             <option value = \"Chocolate Peanut Butter\">\n                             <option value = \"Chocolate Marshmallow\">\n                             <option value = \"Chocolate Chip Mint\">\n                             <option value = \"Chocolate Fudge Brownie\">\n-                            <option value = \"10000\"Flavor not listed\">  \n+                            <option value = \"10000\"></option>Flavor not listed\">  \n                         </datalist>\n                         <input type=\"textbox\" name=\"10000\" id=\"input\" style=\"visibility:hidden;\">\n                     </div>\n                     <div class=\"form-control\">\n"
+                },
+                {
+                    "date": 1687828340631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n                             <option value = \"Chocolate Peanut Butter\">\n                             <option value = \"Chocolate Marshmallow\">\n                             <option value = \"Chocolate Chip Mint\">\n                             <option value = \"Chocolate Fudge Brownie\">\n-                            <option value = \"10000\"></option>Flavor not listed\">  \n+                            <option value = \"10000\">Flavor not listed\">  \n                         </datalist>\n                         <input type=\"textbox\" name=\"10000\" id=\"input\" style=\"visibility:hidden;\">\n                     </div>\n                     <div class=\"form-control\">\n"
+                },
+                {
+                    "date": 1687828347193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n                             <option value = \"Chocolate Peanut Butter\">\n                             <option value = \"Chocolate Marshmallow\">\n                             <option value = \"Chocolate Chip Mint\">\n                             <option value = \"Chocolate Fudge Brownie\">\n-                            <option value = \"10000\">Flavor not listed\">  \n+                            <option value = \"10000\">Flavor not listed</option>  \n                         </datalist>\n                         <input type=\"textbox\" name=\"10000\" id=\"input\" style=\"visibility:hidden;\">\n                     </div>\n                     <div class=\"form-control\">\n"
+                },
+                {
+                    "date": 1687828456835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,8 @@\n                         <datalist id=\"ice-cream-flavors\">\n                             <option value = \"Vanilla\">\n                             <option value = \"Chocolate\">\n                             <option value = \"Strawberry\">\n-                            <option value = \"Mint Chocolate Chip\">\n                             <option value = \"Cookies and Cream\">\n                             <option value = \"Cookie Dough\">\n                             <option value = \"Butter Pecan\">\n                             <option value = \"Birthday Cake\">\n"
+                },
+                {
+                    "date": 1687828490110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n                         <label for=\"name\">Ice-Cream Flavor</label>\n                         <input list=\"ice-cream-flavors\" id=\"iceCreamNames\" name=\"iceCreamNames\" placeholder=\"Choose Flavor\" onchange=\"if (this.value=='10000'){userselect.style.visibility='visible'}else {userselect.style.visibility='hidden'};\">\n                         <small>Please pick a flavor from below</small>\n                         <datalist id=\"ice-cream-flavors\">\n-                            <option value = \"Vanilla\">\n+                            <option value = \"Vanilla\"></option>\n                             <option value = \"Chocolate\">\n                             <option value = \"Strawberry\">\n                             <option value = \"Cookies and Cream\">\n                             <option value = \"Cookie Dough\">\n"
+                },
+                {
+                    "date": 1687828495310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,10 +22,10 @@\n                         <input list=\"ice-cream-flavors\" id=\"iceCreamNames\" name=\"iceCreamNames\" placeholder=\"Choose Flavor\" onchange=\"if (this.value=='10000'){userselect.style.visibility='visible'}else {userselect.style.visibility='hidden'};\">\n                         <small>Please pick a flavor from below</small>\n                         <datalist id=\"ice-cream-flavors\">\n                             <option value = \"Vanilla\"></option>\n-                            <option value = \"Chocolate\">\n-                            <option value = \"Strawberry\">\n+                            <option value = \"Chocolate\"></option>\n+                            <option value = \"Strawberry\"></option>\n                             <option value = \"Cookies and Cream\">\n                             <option value = \"Cookie Dough\">\n                             <option value = \"Butter Pecan\">\n                             <option value = \"Birthday Cake\">\n"
+                },
+                {
+                    "date": 1687828500573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,10 @@\n                         <datalist id=\"ice-cream-flavors\">\n                             <option value = \"Vanilla\"></option>\n                             <option value = \"Chocolate\"></option>\n                             <option value = \"Strawberry\"></option>\n-                            <option value = \"Cookies and Cream\">\n-                            <option value = \"Cookie Dough\">\n+                            <option value = \"Cookies and Cream\"></option>\n+                            <option value = \"Cookie Dough\"></option>\n                             <option value = \"Butter Pecan\">\n                             <option value = \"Birthday Cake\">\n                             <option value = \"Rocky Road\">\n                             <option value = \"Coffee\">\n"
+                },
+                {
+                    "date": 1687828515347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n                             <option value = \"Chocolate\"></option>\n                             <option value = \"Strawberry\"></option>\n                             <option value = \"Cookies and Cream\"></option>\n                             <option value = \"Cookie Dough\"></option>\n-                            <option value = \"Butter Pecan\">\n+                            <option value = \"Butter Pecan\"></option>\n                             <option value = \"Birthday Cake\">\n                             <option value = \"Rocky Road\">\n                             <option value = \"Coffee\">\n                             <option value = \"Pistachio\">\n@@ -36,9 +36,9 @@\n                             <option value = \"Chocolate Chip Cookie Dough\">\n                             <option value = \"Chocolate Peanut Butter\">\n                             <option value = \"Chocolate Marshmallow\">\n                             <option value = \"Chocolate Chip Mint\">\n-                            <option value = \"Chocolate Fudge Brownie\">\n+                            <option value = \"Chocolate Fudge Brownie\"></option>\n                             <option value = \"10000\">Flavor not listed</option>  \n                         </datalist>\n                         <input type=\"textbox\" name=\"10000\" id=\"input\" style=\"visibility:hidden;\">\n                     </div>\n"
+                },
+                {
+                    "date": 1687828520793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,10 +34,10 @@\n                             <option value = \"Pistachio\">\n                             <option value = \"Chocolate Chip\">\n                             <option value = \"Chocolate Chip Cookie Dough\">\n                             <option value = \"Chocolate Peanut Butter\">\n-                            <option value = \"Chocolate Marshmallow\">\n-                            <option value = \"Chocolate Chip Mint\">\n+                            <option value = \"Chocolate Marshmallow\"></option>\n+                            <option value = \"Chocolate Chip Mint\"></option>\n                             <option value = \"Chocolate Fudge Brownie\"></option>\n                             <option value = \"10000\">Flavor not listed</option>  \n                         </datalist>\n                         <input type=\"textbox\" name=\"10000\" id=\"input\" style=\"visibility:hidden;\">\n"
+                },
+                {
+                    "date": 1687828529725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,10 +32,10 @@\n                             <option value = \"Rocky Road\">\n                             <option value = \"Coffee\">\n                             <option value = \"Pistachio\">\n                             <option value = \"Chocolate Chip\">\n-                            <option value = \"Chocolate Chip Cookie Dough\">\n-                            <option value = \"Chocolate Peanut Butter\">\n+                            <option value = \"Chocolate Chip Cookie Dough\"></option>\n+                            <option value = \"Chocolate Peanut Butter\"></option>\n                             <option value = \"Chocolate Marshmallow\"></option>\n                             <option value = \"Chocolate Chip Mint\"></option>\n                             <option value = \"Chocolate Fudge Brownie\"></option>\n                             <option value = \"10000\">Flavor not listed</option>  \n"
+                },
+                {
+                    "date": 1687828538993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,10 @@\n                             <option value = \"Butter Pecan\"></option>\n                             <option value = \"Birthday Cake\">\n                             <option value = \"Rocky Road\">\n                             <option value = \"Coffee\">\n-                            <option value = \"Pistachio\">\n-                            <option value = \"Chocolate Chip\">\n+                            <option value = \"Pistachio\"></option>\n+                            <option value = \"Chocolate Chip\"></option>\n                             <option value = \"Chocolate Chip Cookie Dough\"></option>\n                             <option value = \"Chocolate Peanut Butter\"></option>\n                             <option value = \"Chocolate Marshmallow\"></option>\n                             <option value = \"Chocolate Chip Mint\"></option>\n"
+                },
+                {
+                    "date": 1687828547001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,11 +27,11 @@\n                             <option value = \"Strawberry\"></option>\n                             <option value = \"Cookies and Cream\"></option>\n                             <option value = \"Cookie Dough\"></option>\n                             <option value = \"Butter Pecan\"></option>\n-                            <option value = \"Birthday Cake\">\n-                            <option value = \"Rocky Road\">\n-                            <option value = \"Coffee\">\n+                            <option value = \"Birthday Cake\"></option>\n+                            <option value = \"Rocky Road\"></option>\n+                            <option value = \"Coffee\"></option>\n                             <option value = \"Pistachio\"></option>\n                             <option value = \"Chocolate Chip\"></option>\n                             <option value = \"Chocolate Chip Cookie Dough\"></option>\n                             <option value = \"Chocolate Peanut Butter\"></option>\n"
+                }
+            ],
+            "date": 1687824624530,
+            "name": "Commit-0",
+            "content": "D"
+        }
+    ]
+}
