@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inventory Web Application</title>
     <link rel="stylesheet" href="style.css">
@@ -93,52 +93,56 @@
                                 <option value="Chocolate Fudge Brownie"></option>
                                 <option value="newFlavor">Flavor not listed</option>
                             </select>
-                            <input type="text" id="newFlavorInput" name="newFlavor" style="display: none;">
-                        </div>
-                        <div>
-                            <label for="productPrice">Product Price:</label>
-                            <input type="number" name="productPrice" id="productPrice">
-                        </div>
-                        <div>
-                            <label for="quantityPurchased">Quantity Purchased</label>
-                            <input type="number" name="quantityPurchased" id="quantityPurchased">
-                        </div>
-                        <div>
-                            <label for="quantityRemaining">Quantity Remaining</label>
-                            <input type="number" name="quantityRemaining" id="quantityRemaining">
-                        </div>
-                        <div>
-                            <label for="order">yes</label>
-                            <input type="radio" id="order" name="order">
-                            <label for="noorder">no</label>
-                            <input type="radio" id="noorder" name="order">
-                        </div>
-                        
-                        <div class="form_action-button">
-                            <input type="submit" value="submit">
-                            <input type="reset" value="reset">
-                        </div>
+                            <input type="text" if="newFlavor"
                     </form>
-                <td>
-                    <table class="list" id="storelist">
-                        <thead>
-                            <tr>
-                                <th>Date</th>
-                                <th>Flavor</th>
-                                <th>Product Price</th>
-                                <th>Quantity Purchased</th>
-                                <th>Quantity Remaining</th>
-                                <th>Place Order</th>
-                            </tr>
-                        </thead>
-                            <tbody>
-
-                            </tbody>
-                    </table>
                 </td>
-              </td>
-            </tr>    
+            </tr>
         </table>
-        <script type="text/javascript" src="./script.js"></script>
-    </body>
-</html>
+            <div class="form">
+                <form name="inventory" id="form">
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="form-control">
+                                    <label for="iceCreamNames">Ice Cream Flavor</label>
+                                    <input list="ice-cream-flavors" id="iceCreamNames" name="iceCreamNames" 
+                  placeholder="Choose Flavor" onchange="if (this.value=='10000'){userselect.
+                  style.visibility='visible'}else {userselect.style.visibility='hidden'};">
+                                    <small>Please pick a flavor from below</small>
+                                    <datalist id="ice-cream-flavors">
+                                    </datalist>
+                                    <input type="textbox" name="10000" id="input" style="visibility:hidden;">
+                                </div>
+                                <div class="form-control">
+                                    <label for="price">Price</label>
+                                    <input type="number" id="price" name="price" placeholder="Please enter price" required>
+                                    <small>Please enter the price of the ice cream</small>
+                                </div>
+                                <div class="form-control">
+                                    <label for="quantity">Quantity (gallons)</label>
+                                    <input type="number" id="quantity" name="quantity" placeholder="Please enter quantity" required>
+                                    <small>Please enter the quantity of ice cream in gallons</small>
+                                </div>
+                                <button type="submit">Add to Fridge</button>
+                             </form>
+                            </td>
+                        </tr>
+                    </table>
+                
+            </div>
+            <div class="table">
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>

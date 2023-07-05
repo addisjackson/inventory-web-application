@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inventory Web Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleNewFlavorInput() {
+            const flavorSelect = document.getElementById("flavor");
+            const newFlavorInput = document.getElementById("newFlavorInput");
+            if (flavorSelect.value === "newFlavor") {
+                newFlavorInput.style.display = "block";
+            } else {
+                newFlavorInput.style.display = "none";
+            }
+        }
+    </script>
+</head>
+    <body>
+    <div class="storename">
+        <div class="header">
+            <h1>Addis' Ice-Cream Confections</h1>
+        </div>
+    </div>   
+        <div class="slogon">
+            <h2>~ giving your rest face a giggle ~</h2>
+        </div>
+        <div class="tel">
+            <p>Tel: 212-330-2435</p>
+        </div>
+        <div class="addresshours">
+            <div class="address">
+                <h4>Address :</h4>
+                <p>123 Main Street,</p>
+                <p>Suite 330,</p>
+                <p>New York, NY 10012.</p>
+            </div>
+        <div class="addresshours">
+            <div class="hours">
+                <h4>Hours :</h4>
+                <p>Mondays to Fridays: 9am to 5 pm</p>
+                <p>Saturdays: 9am to 9pm</p>
+                <p>Sundays: 11am to 5pm</p>
+            </div>
+        </div>
+        <div class="title">
+            <h2>Ice-Cream Inventory</h2>
+        </div>  
+            </div>
+        <table>
+            <tr>
+                <td>
+                    <form autocomplete="off" onsubmit="onFormSubmit()">
+                        <div class="datename">
+                            <label for="date">Date</label>
+                            <input type="date" name="date" id="date">
+                        </div>
+                        <div class="datename">
+
+                        </div>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <form autocomplete="off" onsubmit="onFormSubmit()">
+                        <div class="datename">
+                            <label for="date">Date</label>
+                            <input type="date" name="date" id="date">
+                        </div>
+                        <div class="datename">
+                            <label for="flavor">Flavor:</label>
+                            <select id="flavor" onchange
+                    </form>
+                </td>
+            </tr>
+        </table>
+            <div class="form">
+                <form name="inventory" id="form">
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="form-control">
+                                    <label for="iceCreamNames">Ice Cream Flavor</label>
+                                    <input list="ice-cream-flavors" id="iceCreamNames" name="iceCreamNames" 
+                  placeholder="Choose Flavor" onchange="if (this.value=='10000'){userselect.
+                  style.visibility='visible'}else {userselect.style.visibility='hidden'};">
+                                    <small>Please pick a flavor from below</small>
+                                    <datalist id="ice-cream-flavors">
+                                        <option value="Vanilla"></option>
+                                        <option value="Chocolate"></option>
+                                        <option value="Strawberry"></option>
+                                        <option value="Cookies and Cream"></option>
+                                        <option value="Cookie Dough"></option>
+                                        <option value="Butter Pecan"></option>
+                                        <option value="Birthday Cake"></option>
+                                        <option value="Rocky Road"></option>
+                                        <option value="Coffee"></option>
+                                        <option value="Pistachio"></option>
+                                        <option value="Chocolate Chip"></option>
+                                        <option value="Chocolate Chip Cookie Dough"></option>
+                                        <option value="Chocolate Peanut Butter"></option>
+                                        <option value="Chocolate Marshmallow"></option>
+                                        <option value="Chocolate Chip Mint"></option>
+                                        <option value="Chocolate Fudge Brownie"></option>
+                                        <option value="10000">Flavor not listed</option>
+                                    </datalist>
+                                    <input type="textbox" name="10000" id="input" style="visibility:hidden;">
+                                </div>
+                                <div class="form-control">
+                                    <label for="price">Price</label>
+                                    <input type="number" id="price" name="price" placeholder="Please enter price" required>
+                                    <small>Please enter the price of the ice cream</small>
+                                </div>
+                                <div class="form-control">
+                                    <label for="quantity">Quantity (gallons)</label>
+                                    <input type="number" id="quantity" name="quantity" placeholder="Please enter quantity" required>
+                                    <small>Please enter the quantity of ice cream in gallons</small>
+                                </div>
+                                <button type="submit">Add to Fridge</button>
+                             </form>
+                            </td>
+                        </tr>
+                    </table>
+                
+            </div>
+            <div class="table">
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
