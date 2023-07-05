@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 147,
+            "activePatchIndex": 230,
             "patches": [
                 {
                     "date": 1687824624531,
@@ -596,6 +596,338 @@
                 {
                     "date": 1687850908026,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n                                     <input type=\"number\" id=\"quantity\" name=\"quantity\" placeholder=\"Please enter quantity\" required>\n                                     <small>Please enter the quantity of ice cream in gallons</small>\n                                 </div>\n                                 <button type=\"submit\">Add to Fridge</button>\n-                            </form>\n+                             </form>\n                             </td>\n                         </tr>\n                     </table>\n                 \n"
+                },
+                {
+                    "date": 1688580146410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     <meta charset=\"UTF-8\">\n     <meta name=\"viewport\" content=\"width=, initial-scale=1.0\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n     <title>Inventory Web Application</title>\n-    <link rel=\"stylesheet\" href=\"./style.css\">\n+    <link rel=\"stylesheet\" href=\"style.css\">\n     \n </head>\n <body>\n     <script defer src=\"./index.js\"></script>\n"
+                },
+                {
+                    "date": 1688580240135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     <link rel=\"stylesheet\" href=\"style.css\">\n     \n </head>\n <body>\n-    <script defer src=\"./index.js\"></script>\n+    <script></script>\n     <div class=\"container\">\n         <div class=\"header\">\n             <h1>Inventory Web Application</h1>\n         </div>\n"
+                },
+                {
+                    "date": 1688580251794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,11 @@\n     <link rel=\"stylesheet\" href=\"style.css\">\n     \n </head>\n <body>\n-    <script></script>\n+    <script>\n+        func\n+    </script>\n     <div class=\"container\">\n         <div class=\"header\">\n             <h1>Inventory Web Application</h1>\n         </div>\n"
+                },
+                {
+                    "date": 1688580260431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     \n </head>\n <body>\n     <script>\n-        func\n+        function tggle\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n             <h1>Inventory Web Application</h1>\n"
+                },
+                {
+                    "date": 1688580266237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     \n </head>\n <body>\n     <script>\n-        function tggle\n+        function toggle\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n             <h1>Inventory Web Application</h1>\n"
+                },
+                {
+                    "date": 1688580275256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     \n </head>\n <body>\n     <script>\n-        function toggle\n+        function toggleNewFlavor\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n             <h1>Inventory Web Application</h1>\n"
+                },
+                {
+                    "date": 1688580283509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     \n </head>\n <body>\n     <script>\n-        function toggleNewFlavor\n+        function toggleNewFlavorInput() \n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n             <h1>Inventory Web Application</h1>\n"
+                },
+                {
+                    "date": 1688580294265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,11 @@\n     \n </head>\n <body>\n     <script>\n-        function toggleNewFlavorInput() \n+        function toggleNewFlavorInput() {\n+            const \n+        }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n             <h1>Inventory Web Application</h1>\n"
+                },
+                {
+                    "date": 1688580300257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n </head>\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n-            const \n+            const flavorselect\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580307669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n </head>\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n-            const flavorselect\n+            const flavorSelect\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580317623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n </head>\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n-            const flavorSelect\n+            const flavorSelect = \n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580326455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n </head>\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n-            const flavorSelect = \n+            const flavorSelect = document\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580332338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n </head>\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n-            const flavorSelect = document\n+            const flavorSelect = document.getE\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580344080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n </head>\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n-            const flavorSelect = document.getE\n+            const flavorSelect = document.getElementById()\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580351871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n </head>\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n-            const flavorSelect = document.getElementById()\n+            const flavorSelect = document.getElementById(\"\")\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580361502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,10 @@\n </head>\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n-            const flavorSelect = document.getElementById(\"\")\n+            const flavorSelect = document.getElementById(\"flavor\");\n+            \n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580370144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n-            \n+            const \n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580377205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n-            const \n+            const new\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580383753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n-            const new\n+            const newFlavorInput\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580397024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n-            const newFlavorInput\n+            const newFlavorInput = doc\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580403641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n-            const newFlavorInput = doc\n+            const newFlavorInput = document.get\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580411696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n-            const newFlavorInput = document.get\n+            const newFlavorInput = document.getElementById()\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580420504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n-            const newFlavorInput = document.getElementById()\n+            const newFlavorInput = document.getElementById(newFlavorInpout)\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580425692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n-            const newFlavorInput = document.getElementById(newFlavorInpout)\n+            const newFlavorInput = document.getElementById(newFlavorInput\")\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580435303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n-            const newFlavorInput = document.getElementById(newFlavorInput\")\n+            const newFlavorInput = document.getElementById(\"newFlavorInput\")\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580444527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,10 @@\n <body>\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n-            const newFlavorInput = document.getElementById(\"newFlavorInput\")\n+            const newFlavorInput = document.getElementById(\"newFlavorInput\");\n+            if\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580454898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n-            if\n+            if (flavorSelect)\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580466164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n-            if (flavorSelect)\n+            if (flavorSelect.value===)\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580471671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n-            if (flavorSelect.value===)\n+            if (flavorSelect.value === )\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580480392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n-            if (flavorSelect.value === )\n+            if (flavorSelect.value === \"\")\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580493533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n-            if (flavorSelect.value === \"\")\n+            if (flavorSelect.value === \"newFlavor\") \n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580502842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,11 @@\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n-            if (flavorSelect.value === \"newFlavor\") \n+            if (flavorSelect.value === \"newFlavor\") {\n+                new\n+            }\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580513323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n             if (flavorSelect.value === \"newFlavor\") {\n-                new\n+                new .\n             }\n         }\n     </script>\n     <div class=\"container\">\n"
+                },
+                {
+                    "date": 1688580518987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n             if (flavorSelect.value === \"newFlavor\") {\n-                new .\n+                newFlavorInput\n             }\n         }\n     </script>\n     <div class=\"container\">\n"
+                },
+                {
+                    "date": 1688580528542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n             if (flavorSelect.value === \"newFlavor\") {\n-                newFlavorInput\n+                newFlavorInput.style.display\n             }\n         }\n     </script>\n     <div class=\"container\">\n"
+                },
+                {
+                    "date": 1688580534756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n             if (flavorSelect.value === \"newFlavor\") {\n-                newFlavorInput.style.display\n+                newFlavorInput.style.display = \n             }\n         }\n     </script>\n     <div class=\"container\">\n"
+                },
+                {
+                    "date": 1688580545144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n             if (flavorSelect.value === \"newFlavor\") {\n-                newFlavorInput.style.display = \n+                newFlavorInput.style.display = \"block\"\n             }\n         }\n     </script>\n     <div class=\"container\">\n"
+                },
+                {
+                    "date": 1688580560098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n             if (flavorSelect.value === \"newFlavor\") {\n-                newFlavorInput.style.display = \"block\"\n+                newFlavorInput.style.display = \"block\";\n             }\n         }\n     </script>\n     <div class=\"container\">\n"
+                },
+                {
+                    "date": 1688580568323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n             if (flavorSelect.value === \"newFlavor\") {\n                 newFlavorInput.style.display = \"block\";\n-            }\n+            } else\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580573773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,11 @@\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n             if (flavorSelect.value === \"newFlavor\") {\n                 newFlavorInput.style.display = \"block\";\n-            } else\n+            } else {\n+                \n+            }\n         }\n     </script>\n     <div class=\"container\">\n         <div class=\"header\">\n"
+                },
+                {
+                    "date": 1688580582248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n             if (flavorSelect.value === \"newFlavor\") {\n                 newFlavorInput.style.display = \"block\";\n             } else {\n-                \n+                new\n             }\n         }\n     </script>\n     <div class=\"container\">\n"
+                },
+                {
+                    "date": 1688580587992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n             if (flavorSelect.value === \"newFlavor\") {\n                 newFlavorInput.style.display = \"block\";\n             } else {\n-                new\n+                newFlavorInput.\n             }\n         }\n     </script>\n     <div class=\"container\">\n"
+                },
+                {
+                    "date": 1688580594254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n             if (flavorSelect.value === \"newFlavor\") {\n                 newFlavorInput.style.display = \"block\";\n             } else {\n-                newFlavorInput.\n+                newFlavorInput.style\n             }\n         }\n     </script>\n     <div class=\"container\">\n"
+                },
+                {
+                    "date": 1688580599779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n             if (flavorSelect.value === \"newFlavor\") {\n                 newFlavorInput.style.display = \"block\";\n             } else {\n-                newFlavorInput.style\n+                newFlavorInput.style.display = \n             }\n         }\n     </script>\n     <div class=\"container\">\n"
+                },
+                {
+                    "date": 1688580606973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n             if (flavorSelect.value === \"newFlavor\") {\n                 newFlavorInput.style.display = \"block\";\n             } else {\n-                newFlavorInput.style.display = \n+                newFlavorInput.style.display = \"none\";\n             }\n         }\n     </script>\n     <div class=\"container\">\n"
+                },
+                {
+                    "date": 1688580647946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,8 @@\n     <meta name=\"viewport\" content=\"width=, initial-scale=1.0\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n     <title>Inventory Web Application</title>\n     <link rel=\"stylesheet\" href=\"style.css\">\n-    \n-</head>\n-<body>\n     <script>\n         function toggleNewFlavorInput() {\n             const flavorSelect = document.getElementById(\"flavor\");\n             const newFlavorInput = document.getElementById(\"newFlavorInput\");\n"
+                },
+                {
+                    "date": 1688580655497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,10 @@\n                 newFlavorInput.style.display = \"none\";\n             }\n         }\n     </script>\n+    </head>\n+    <body>\n     <div class=\"container\">\n         <div class=\"header\">\n             <h1>Inventory Web Application</h1>\n         </div>\n"
+                },
+                {
+                    "date": 1688580665548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n                 newFlavorInput.style.display = \"none\";\n             }\n         }\n     </script>\n-    </head>\n+</head>\n     <body>\n     <div class=\"container\">\n         <div class=\"header\">\n             <h1>Inventory Web Application</h1>\n"
+                },
+                {
+                    "date": 1688580674450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         }\n     </script>\n </head>\n     <body>\n-    <div class=\"container\">\n+    <div class=\"str\">\n         <div class=\"header\">\n             <h1>Inventory Web Application</h1>\n         </div>\n         <div class=\"content\">\n"
+                },
+                {
+                    "date": 1688580704127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,11 +18,11 @@\n         }\n     </script>\n </head>\n     <body>\n-    <div class=\"str\">\n+    <div class=\"storename\">\n         <div class=\"header\">\n-            <h1>Inventory Web Application</h1>\n+            <h1>Addisn</h1>\n         </div>\n         <div class=\"content\">\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n"
+                },
+                {
+                    "date": 1688580710025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n </head>\n     <body>\n     <div class=\"storename\">\n         <div class=\"header\">\n-            <h1>Addisn</h1>\n+            <h1>Addis' </h1>\n         </div>\n         <div class=\"content\">\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n"
+                },
+                {
+                    "date": 1688580718441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n </head>\n     <body>\n     <div class=\"storename\">\n         <div class=\"header\">\n-            <h1>Addis' </h1>\n+            <h1>Addis' Ice-Crea</h1>\n         </div>\n         <div class=\"content\">\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n"
+                },
+                {
+                    "date": 1688580725379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n </head>\n     <body>\n     <div class=\"storename\">\n         <div class=\"header\">\n-            <h1>Addis' Ice-Crea</h1>\n+            <h1>Addis' Ice-Cream Confections</h1>\n         </div>\n         <div class=\"content\">\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n"
+                },
+                {
+                    "date": 1688580746299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,9 @@\n     <div class=\"storename\">\n         <div class=\"header\">\n             <h1>Addis' Ice-Cream Confections</h1>\n         </div>\n+        \n         <div class=\"content\">\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n"
+                },
+                {
+                    "date": 1688580754924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     <div class=\"storename\">\n         <div class=\"header\">\n             <h1>Addis' Ice-Cream Confections</h1>\n         </div>\n-        \n+     <   \n         <div class=\"content\">\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n"
+                },
+                {
+                    "date": 1688580761019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     <div class=\"storename\">\n         <div class=\"header\">\n             <h1>Addis' Ice-Cream Confections</h1>\n         </div>\n-     <   \n+    </div>   \n         <div class=\"content\">\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n"
+                },
+                {
+                    "date": 1688580776163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         <div class=\"header\">\n             <h1>Addis' Ice-Cream Confections</h1>\n         </div>\n     </div>   \n-        <div class=\"content\">\n+        <div class=\"slogon\">\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580788736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,9 @@\n             <h1>Addis' Ice-Cream Confections</h1>\n         </div>\n     </div>   \n         <div class=\"slogon\">\n+            <h2\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580808872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n             <h1>Addis' Ice-Cream Confections</h1>\n         </div>\n     </div>   \n         <div class=\"slogon\">\n-            <h2\n+            <h2>~ </h2>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580815621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n             <h1>Addis' Ice-Cream Confections</h1>\n         </div>\n     </div>   \n         <div class=\"slogon\">\n-            <h2>~ </h2>\n+            <h2>~ giving your rest face a </h2>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580821183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n             <h1>Addis' Ice-Cream Confections</h1>\n         </div>\n     </div>   \n         <div class=\"slogon\">\n-            <h2>~ giving your rest face a </h2>\n+            <h2>~ giving your rest face a giggle</h2>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580830763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,10 @@\n             <h1>Addis' Ice-Cream Confections</h1>\n         </div>\n     </div>   \n         <div class=\"slogon\">\n-            <h2>~ giving your rest face a giggle</h2>\n+            <h2>~ giving your rest face a giggle ~</h2>\n+            \n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580840109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n         </div>\n     </div>   \n         <div class=\"slogon\">\n             <h2>~ giving your rest face a giggle ~</h2>\n-            \n+        \n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580847328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,9 @@\n         </div>\n     </div>   \n         <div class=\"slogon\">\n             <h2>~ giving your rest face a giggle ~</h2>\n+        </div>\n         \n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n"
+                },
+                {
+                    "date": 1688580853005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     </div>   \n         <div class=\"slogon\">\n             <h2>~ giving your rest face a giggle ~</h2>\n         </div>\n-        \n+        <div \n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580860382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     </div>   \n         <div class=\"slogon\">\n             <h2>~ giving your rest face a giggle ~</h2>\n         </div>\n-        <div \n+        <div class=\"\"tel\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580866321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     </div>   \n         <div class=\"slogon\">\n             <h2>~ giving your rest face a giggle ~</h2>\n         </div>\n-        <div class=\"\"tel\n+        <div class=\"\"tel\"></div>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580872117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,11 @@\n     </div>   \n         <div class=\"slogon\">\n             <h2>~ giving your rest face a giggle ~</h2>\n         </div>\n-        <div class=\"\"tel\"></div>\n+        <div class=\"tel\">\n+            \n+        </div>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580880002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         <div class=\"slogon\">\n             <h2>~ giving your rest face a giggle ~</h2>\n         </div>\n         <div class=\"tel\">\n-            \n+            <p\n         </div>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n"
+                },
+                {
+                    "date": 1688580888601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         <div class=\"slogon\">\n             <h2>~ giving your rest face a giggle ~</h2>\n         </div>\n         <div class=\"tel\">\n-            <p\n+            <p>Tel</p>\n         </div>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n"
+                },
+                {
+                    "date": 1688580895316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         <div class=\"slogon\">\n             <h2>~ giving your rest face a giggle ~</h2>\n         </div>\n         <div class=\"tel\">\n-            <p>Tel</p>\n+            <p>Tel: 212-330-</p>\n         </div>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n"
+                },
+                {
+                    "date": 1688580914102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,10 +27,11 @@\n         <div class=\"slogon\">\n             <h2>~ giving your rest face a giggle ~</h2>\n         </div>\n         <div class=\"tel\">\n-            <p>Tel: 212-330-</p>\n+            <p>Tel: 212-330-2435</p>\n         </div>\n+        \n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580922856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         <div class=\"tel\">\n             <p>Tel: 212-330-2435</p>\n         </div>\n-        \n+        <div \n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580931436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         <div class=\"tel\">\n             <p>Tel: 212-330-2435</p>\n         </div>\n-        <div \n+        <div class=\"\"add\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580941190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         <div class=\"tel\">\n             <p>Tel: 212-330-2435</p>\n         </div>\n-        <div class=\"\"add\n+        <div class=\"\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580946391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         <div class=\"tel\">\n             <p>Tel: 212-330-2435</p>\n         </div>\n-        <div class=\"\n+        <div class=\"addresshours\"\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580952372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         </div>\n         <div class=\"tel\">\n             <p>Tel: 212-330-2435</p>\n         </div>\n-        <div class=\"addresshours\"\n+        <div class=\"addresshours\"></div>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580958575,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,11 @@\n         </div>\n         <div class=\"tel\">\n             <p>Tel: 212-330-2435</p>\n         </div>\n-        <div class=\"addresshours\"></div>\n+        <div class=\"addresshours\">\n+            <\n+        </div>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n                         <tr>\n"
+                },
+                {
+                    "date": 1688580965978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n         <div class=\"tel\">\n             <p>Tel: 212-330-2435</p>\n         </div>\n         <div class=\"addresshours\">\n-            <\n+            <div class=\"\"\n         </div>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n"
+                },
+                {
+                    "date": 1688580975578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,11 @@\n         <div class=\"tel\">\n             <p>Tel: 212-330-2435</p>\n         </div>\n         <div class=\"addresshours\">\n-            <div class=\"\"\n+            <div class=\"address\">\n+                \n+            </div>\n         </div>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n"
+                },
+                {
+                    "date": 1688581002763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n             <p>Tel: 212-330-2435</p>\n         </div>\n         <div class=\"addresshours\">\n             <div class=\"address\">\n-                \n+                <h4\n             </div>\n         </div>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n"
+                },
+                {
+                    "date": 1688581008689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n             <p>Tel: 212-330-2435</p>\n         </div>\n         <div class=\"addresshours\">\n             <div class=\"address\">\n-                <h4>Address </h4>\n+                <h4>Address :</h4>\n             </div>\n         </div>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n"
+                },
+                {
+                    "date": 1688581106919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n                 <p>123 Main Street,</p>\n                 <p>Suite 330,</p>\n                 <p>New York, NY 10012.</p>\n             </div>\n-            <d\n+            <di\n         </div>\n             <div class=\"form\">\n                 <form name=\"inventory\" id=\"form\">\n                     <table>\n"
                 }
             ],
             "date": 1687824624530,

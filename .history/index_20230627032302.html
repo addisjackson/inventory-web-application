@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inventory Web Application</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <script defer src="./index.js"></script>
+    <div class="container">
+        <div class="header">
+            <h1>Inventory Web Application</h1>
+        </div>
+        <div class="content">
+            <div class="form">
+                <form name="inventoryt" id="form">
+                    <div class="form-control">
+                        <label for="iceCreamNames">Ice Cream Flavor</label>
+                        <input list="ice-cream-flavors" id="iceCreamNames" name="iceCreamNames" placeholder="Choose Flavor" onchange="if (this.value=='10000'){userselect.style.visibility='visible'}else {userselect.style.visibility='hidden'};">
+                        <small>Please pick a flavor from below</small>
+                        <datalist id="ice-cream-flavors">
+                            <option value="Vanilla"></option>
+                            <option value="Chocolate"></option>
+                            <option value="Strawberry"></option>
+                            <option value="Cookies and Cream"></option>
+                            <option value="Cookie Dough"></option>
+                            <option value="Butter Pecan"></option>
+                            <option value="Birthday Cake"></option>
+                            <option value="Rocky Road"></option>
+                            <option value="Coffee"></option>
+                            <option value="Pistachio"></option>
+                            <option value="Chocolate Chip"></option>
+                            <option value="Chocolate Chip Cookie Dough"></option>
+                            <option value="Chocolate Peanut Butter"></option>
+                            <option value="Chocolate Marshmallow"></option>
+                            <option value="Chocolate Chip Mint"></option>
+                            <option value="Chocolate Fudge Brownie"></option>
+                            <option value="10000">Flavor not listed</option>
+                        </datalist>
+                        <input type="textbox" name="10000" id="input" style="visibility:hidden;">
+                    </div>
+                    <div class="form-control">
+                        <label for="price">Price</label>
+                        <input type="number" id="price" name="price" placeholder="Please enter price" required>
+                        <small>Please enter the price of the ice cream</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="quantity">Quantity (gallons)</label>
+                        <input type="number" id="quantity" name="quantity" placeholder="Please enter quantity" required>
+                        <small>Please enter the quantity of ice cream in gallons</small>
+                    </div>
+                    <button type="submit">Add to Fridge</button>
+                </form>
+                
+            </div>
+            <div class="table">
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
