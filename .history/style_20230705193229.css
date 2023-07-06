@@ -45,7 +45,7 @@ table {
     width: 80%;
     margin: 40px auto;
     background: darkcyan;
-    background-image: url('./assets/background1.jpg');
+    background-image: url('./assets/background1.jpg')
 }
 
 table.list {
@@ -59,46 +59,4 @@ td {
     padding: 8px 15px;
 }
 
-tr:nth-child(even), table.list thread> tr {
-    background-color: gray;
-}
-
-input[type='submit'], input[type='reset'] {
-    background: lightgray;
-    padding: 6px 12px;
-    margin: 15px 0 10px;
-    display: inline-block;
-    border: none;
-    border-radius:b 30px;
-    font-size: 1rem;
-    cursor: pointer;
-    outline: none;
-}
-
-input[type='submit'] {
-    margin-right: 100px;
-}
-
-input[type='submit']:hover {
-    background: #4b99d8;
-}
-
-input[type='reset']:hover {
-    backgrounbd: #4b99d8;
-}
-
-button {
-    background: lightgray;
-    padding: 6px 12px;
-    margin: 15px 0 10px;
-    display: inline-block;
-    border: none;
-    border-radius: 30px;
-    font-size: 1rem;
-    cursor: pointer;
-    outline: none;
-}
-
-button: hover {
-    background: #4b99d8;
-}
+tr:nth-child(even), table.list thread

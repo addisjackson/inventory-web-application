@@ -1,0 +1,2 @@
+const selectedRow = null;
+

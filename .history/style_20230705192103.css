@@ -1,0 +1,10 @@
+body {
+    background-image: url('./assets/background.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backgrounds-size: cover;
+}
+
+h1, h2, h3, .tel, .slogan {
+    text-align: center;
+}

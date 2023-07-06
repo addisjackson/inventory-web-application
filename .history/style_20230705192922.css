@@ -1,0 +1,49 @@
+body {
+    background-image: url('./assets/background.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backgrounds-size: cover;
+}
+
+h1, h2, h3, .tel, .slogan {
+    text-align: center;
+}
+
+.storename {
+    font-family: "fantasy",sans-ser;
+    text-decoration: underline;
+    font-style:italic;
+    text-align: center;
+    color: lightpurple;
+}
+
+.addresshours {
+    display: inline-block;
+}
+
+.hours {
+    margin-right: 170px;
+    text-align: right;
+    padding-left: 800px;
+}
+
+.address {
+    margin-left: 160px;
+    text-align: left;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 14;
+}
+
+.datename {
+    display: inline-block;
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    background: darkcyan;
+    background-image: url('./assets/background1.jpg')
+}
