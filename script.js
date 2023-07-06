@@ -13,20 +13,30 @@ function onFormSubmit(e) {
 //Get data from form
 
 function readFormData() {
+    const flavorDropDown = document.getElementById("flavor");
+    const selectedFlavor = flavorDropDown.options[flavorDropDown.selectedIndex].value;
     const formData = {};
     formData["date"] = document.getElementById('date').value;
-    formData["flavor"] = document.getElementById('flavor').value;
+    if (selectedFlavor == "Flavor not listed") {
+        formData["flavor"] = document.getElementById('newFlavorInput').value;
+    } else {
+        formData["flavor"] = selectedFlavor;
+    }
     formData["purchasePrice"] = document.getElementById('purchasePrice').value;
     formData["quantityPurchased"] = document.getElementById('quantityPurchased').value;
     formData["quantityRemaining"] = document.getElementById('quantityRemaining').value;
-    formData["order"] = document.getElementById('order').checked.value="yes";
+    if (parseInt(formData['quantityRemaining'])< 5) {
+        formData["order"] = document.getElementById('order').checked.value="yes";
+    } else {
+        formData["order"] = document.getElementById('order').checked.value="no";
+    }
     return formData;
 }
 
 //add data to table
 
 function insertNewRecord(data) {
-    const table = document.getElementById("storelist").getElementsByTagName("tbody").[0];
+    const table = document.getElementById("storelist").getElementsByTagName("tbody")[0];
     const newRow = table.insertRow(table.length);
     cell1 =newRow.insertCell(0);
         cell1.innerHTML = data.date;
@@ -70,7 +80,7 @@ function updateRecord(formData) {
 function onDelete(td) {
     if(confirm("Do you want to delete this record?")) {
         row = td.parentElement.parentElement;
-        document.getElementById("storelist").deleteROW(row.rowIndex);
+        document.getElementById("storelist").deleteRow(row.rowIndex);
         resetForm();
     }
 }

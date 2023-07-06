@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <script>
         function toggleNewFlavorInput() {
-            const flavorSelect = document.getElementById("flavor");
+            const flavorDropDown = document.getElementById("flavor");
             const newFlavorInput = document.getElementById("newFlavorInput");
-            if (flavorSelect.value === "newFlavor") {
-                newFlavorInput.style.display = "block";
+            if (flavorDropDown.value === "Flavor not listed") {
+                newFlavorInput.style.display = "inline";
             } else {
                 newFlavorInput.style.display = "none";
             }
@@ -30,14 +30,14 @@
         <div class="tel">
             <p>Tel: 212-330-2435</p>
         </div>
-        <div class="addresshours">
-            <div class="address">
+        <div class="address" style="display: inline-block;">
+            <div class="address" id="address">
                 <h4>Address :</h4>
                 <p>123 Main Street,</p>
                 <p>Suite 330,</p>
                 <p>New York, NY 10012.</p>
             </div>
-        <div class="addresshours">
+        <div class="address">
             <div class="hours">
                 <h4>Hours :</h4>
                 <p>Mondays to Fridays: 9am to 5 pm</p>
@@ -78,7 +78,6 @@
                                 <option value="Chocolate Fudge Brownie">Chocolate Fudge Brownie</option>
                                 <option value="newFlavor">Flavor not listed</option>
                                 </select>
-                            </select>
                             <input type="text" id="newFlavorInput" name="newFlavor" style="display: none;">
                         </div>
                         <div>
@@ -105,7 +104,7 @@
                             <input type="reset" value="reset">
                         </div>
                     </form>
-                <td>
+                </td>
                     <table class="list" id="storelist">
                         <thead>
                             <tr>

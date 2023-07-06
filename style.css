@@ -10,24 +10,24 @@ h1, h2, h3, .tel, .slogan {
 }
 
 .storename {
-    font-family: "fantasy"
+    font-family: "fantasy" san serif;
     text-decoration: underline;
     font-style:italic;
     text-align: center;
     color: light purple;
 }
 
-.addresshours {
+.address {
     display: inline-block;
 }
 
 .hours {
     margin-right: 170px;
     text-align: right;
-    padding-left: 600px;
+    padding-left: 300px;
 }
 
-.address {
+#address {
     margin-left: 160px;
     text-align: left;
 }
