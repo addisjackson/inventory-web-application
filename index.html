@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inventory Web Application</title>
     <link rel="stylesheet" href="style.css">
@@ -58,40 +58,26 @@
                             <input type="date" name="date" id="date">
                         </div>
                         <div class="datename">
-
-                        </div>
-                    </form>
-                </td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td>
-                    <form autocomplete="off" onsubmit="onFormSubmit()">
-                        <div class="datename">
-                            <label for="date">Date</label>
-                            <input type="date" name="date" id="date">
-                        </div>
-                        <div class="datename">
                             <label for="flavor">Flavor:</label>
-                            <select id="flavor" onchange="toggleNewFlavorInput()">
-                                <option value="Vanilla"></option>
-                                <option value="Chocolate"></option>
-                                <option value="Strawberry"></option>
-                                <option value="Cookies and Cream"></option>
-                                <option value="Cookie Dough"></option>
-                                <option value="Butter Pecan"></option>
-                                <option value="Birthday Cake"></option>
-                                <option value="Rocky Road"></option>
-                                <option value="Coffee"></option>
-                                <option value="Pistachio"></option>
-                                <option value="Chocolate Chip"></option>
-                                <option value="Chocolate Chip Cookie Dough"></option>
-                                <option value="Chocolate Peanut Butter"></option>
-                                <option value="Chocolate Marshmallow"></option>
-                                <option value="Chocolate Chip Mint"></option>
-                                <option value="Chocolate Fudge Brownie"></option>
+                            <select id="flavor" onfocus="toggleNewFlavorInput()">
+                                <option value="Vanilla">Vanilla</option>
+                                <option value="Chocolate">Chocolate</option>
+                                <option value="Strawberry">Strawberry</option>
+                                <option value="Cookies and Cream">Cookies & Cream</option>
+                                <option value="Cookie Dough">Cookie Dough</option>
+                                <option value="Butter Pecan">Butter Pecan</option>
+                                <option value="Birthday Cake">Birthday Cake</option>
+                                <option value="Rocky Road">Rocky Road</option>
+                                <option value="Coffee">Coffee</option>
+                                <option value="Pistachio">Pistachio</option>
+                                <option value="Chocolate Chip">Chocolate Chip</option>
+                                <option value="Chocolate Chip Cookie Dough">Chocolate Chip Cookie Dough</option>
+                                <option value="Chocolate Peanut Butter">Chocolate Butter Pecan</option>
+                                <option value="Chocolate Marshmallow">Chocolate Marshmallow</option>
+                                <option value="Chocolate Chip Mint">Chocolate Chip Mint</option>
+                                <option value="Chocolate Fudge Brownie">Chocolate Fudge Brownie</option>
                                 <option value="newFlavor">Flavor not listed</option>
+                                </select>
                             </select>
                             <input type="text" id="newFlavorInput" name="newFlavor" style="display: none;">
                         </div>
