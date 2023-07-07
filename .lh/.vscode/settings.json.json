@@ -1,0 +1,186 @@
+{
+    "sourceFile": ".vscode/settings.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 42,
+            "patches": [
+                {
+                    "date": 1688668767362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688668782917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n {\n-    \"files.autoSave\": \"onWindowChange\"\n+    \"files.autoSave\": \"onWindowChange\",\n+    \"editor.wordWrap\": \"on\"\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688668822561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n {\n     \"files.autoSave\": \"onWindowChange\",\n-    \"editor.wordWrap\": \"on\"\n+    \"editor.wordWrap\": \"on\",\n+    \"files.exclude\": {\n+        \".history/*\": true\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688668847120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n {\n     \"files.autoSave\": \"onWindowChange\",\n     \"editor.wordWrap\": \"on\",\n     \"files.exclude\": {\n-        \".history/*\": true\n+        \".history/*\": true,\n+        \".lh/*\": true\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688668937732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,7 @@\n     \"editor.wordWrap\": \"on\",\n     \"files.exclude\": {\n         \".history/*\": true,\n         \".lh/*\": true\n-    }\n+    },\n+    \"editor.bracketPairColorization.independentColorPoolPerBracketType\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669010286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,7 @@\n     \"files.exclude\": {\n         \".history/*\": true,\n         \".lh/*\": true\n     },\n-    \"editor.bracketPairColorization.independentColorPoolPerBracketType\": true\n+    \"editor.bracketPairColorization.independentColorPoolPerBracketType\": true,\n+    \"editor.defaultFormatter\": \"vscode.css-language-features\"\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669021686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n         \".history/*\": true,\n         \".lh/*\": true\n     },\n     \"editor.bracketPairColorization.independentColorPoolPerBracketType\": true,\n-    \"editor.defaultFormatter\": \"vscode.css-language-features\"\n+    \"editor.defaultFormatter\": \"svipas.code-autocomplete\"\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669171450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,7 @@\n         \".history/*\": true,\n         \".lh/*\": true\n     },\n     \"editor.bracketPairColorization.independentColorPoolPerBracketType\": true,\n-    \"editor.defaultFormatter\": \"svipas.code-autocomplete\"\n+    \"editor.defaultFormatter\": \"svipas.code-autocomplete\",\n+    \"workbench.editor.enablePreviewFromCodeNavigation\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669196770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,8 @@\n         \".lh/*\": true\n     },\n     \"editor.bracketPairColorization.independentColorPoolPerBracketType\": true,\n     \"editor.defaultFormatter\": \"svipas.code-autocomplete\",\n-    \"workbench.editor.enablePreviewFromCodeNavigation\": true\n+    \"workbench.editor.enablePreviewFromCodeNavigation\": true,\n+    \"workbench.editor.enablePreviewFromQuickOpen\": true,\n+    \"scm.alwaysShowActions\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669290039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,8 @@\n     \"editor.bracketPairColorization.independentColorPoolPerBracketType\": true,\n     \"editor.defaultFormatter\": \"svipas.code-autocomplete\",\n     \"workbench.editor.enablePreviewFromCodeNavigation\": true,\n     \"workbench.editor.enablePreviewFromQuickOpen\": true,\n-    \"scm.alwaysShowActions\": true\n+    \"scm.alwaysShowActions\": true,\n+    \"scm.alwaysShowRepositories\": true,\n+    \"remote.downloadExtensionsLocally\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669297698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,6 +10,7 @@\n     \"workbench.editor.enablePreviewFromCodeNavigation\": true,\n     \"workbench.editor.enablePreviewFromQuickOpen\": true,\n     \"scm.alwaysShowActions\": true,\n     \"scm.alwaysShowRepositories\": true,\n-    \"remote.downloadExtensionsLocally\": true\n+    \"remote.downloadExtensionsLocally\": true,\n+    \"notebook.output.wordWrap\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669379866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,7 @@\n     \"workbench.editor.enablePreviewFromQuickOpen\": true,\n     \"scm.alwaysShowActions\": true,\n     \"scm.alwaysShowRepositories\": true,\n     \"remote.downloadExtensionsLocally\": true,\n-    \"notebook.output.wordWrap\": true\n+    \"notebook.output.wordWrap\": true,\n+    \"hqServer.browser.attachChromeDebugger\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669418173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,6 +12,7 @@\n     \"scm.alwaysShowActions\": true,\n     \"scm.alwaysShowRepositories\": true,\n     \"remote.downloadExtensionsLocally\": true,\n     \"notebook.output.wordWrap\": true,\n-    \"hqServer.browser.attachChromeDebugger\": true\n+    \"hqServer.browser.attachChromeDebugger\": true,\n+    \"html.trace.server\": \"messages\"\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669444549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,7 @@\n     \"scm.alwaysShowRepositories\": true,\n     \"remote.downloadExtensionsLocally\": true,\n     \"notebook.output.wordWrap\": true,\n     \"hqServer.browser.attachChromeDebugger\": true,\n-    \"html.trace.server\": \"messages\"\n+    \"html.trace.server\": \"messages\",\n+    \"html.format.indentInnerHtml\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669493730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,8 @@\n     \"remote.downloadExtensionsLocally\": true,\n     \"notebook.output.wordWrap\": true,\n     \"hqServer.browser.attachChromeDebugger\": true,\n     \"html.trace.server\": \"messages\",\n-    \"html.format.indentInnerHtml\": true\n+    \"html.format.indentInnerHtml\": true,\n+    \"html.format.indentHandlebars\": true,\n+    \"hqServer.browser.browserCmdLine\": \"chrome --incognito --headless --remote-debugging-port=9222\"\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669623292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,6 +16,7 @@\n     \"hqServer.browser.attachChromeDebugger\": true,\n     \"html.trace.server\": \"messages\",\n     \"html.format.indentInnerHtml\": true,\n     \"html.format.indentHandlebars\": true,\n-    \"hqServer.browser.browserCmdLine\": \"chrome --incognito --headless --remote-debugging-port=9222\"\n+    \"hqServer.browser.browserCmdLine\": \"chrome --incognito --headless --remote-debugging-port=9222\",\n+    \"vscode.liveHtmlPreviewerV2.disableWebViewStyling\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669666454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,6 +17,7 @@\n     \"html.trace.server\": \"messages\",\n     \"html.format.indentInnerHtml\": true,\n     \"html.format.indentHandlebars\": true,\n     \"hqServer.browser.browserCmdLine\": \"chrome --incognito --headless --remote-debugging-port=9222\",\n-    \"vscode.liveHtmlPreviewerV2.disableWebViewStyling\": true\n+    \"vscode.liveHtmlPreviewerV2.disableWebViewStyling\": true,\n+    \"liveCoder.settings.fullReload\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669686627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,6 +18,7 @@\n     \"html.format.indentInnerHtml\": true,\n     \"html.format.indentHandlebars\": true,\n     \"hqServer.browser.browserCmdLine\": \"chrome --incognito --headless --remote-debugging-port=9222\",\n     \"vscode.liveHtmlPreviewerV2.disableWebViewStyling\": true,\n-    \"liveCoder.settings.fullReload\": true\n+    \"liveCoder.settings.fullReload\": true,\n+    \"liveCoder.settings.NoBrowser\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669710441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,6 +19,9 @@\n     \"html.format.indentHandlebars\": true,\n     \"hqServer.browser.browserCmdLine\": \"chrome --incognito --headless --remote-debugging-port=9222\",\n     \"vscode.liveHtmlPreviewerV2.disableWebViewStyling\": true,\n     \"liveCoder.settings.fullReload\": true,\n-    \"liveCoder.settings.NoBrowser\": true\n+    \"liveCoder.settings.NoBrowser\": true,\n+    \"liveCoder.settings.proxy\": {\n+        \"enable\": true\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669720734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,6 +22,7 @@\n     \"liveCoder.settings.fullReload\": true,\n     \"liveCoder.settings.NoBrowser\": true,\n     \"liveCoder.settings.proxy\": {\n         \"enable\": true\n-    }\n+    },\n+    \"liveCoder.settings.useLocalIp\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669727683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,6 +23,7 @@\n     \"liveCoder.settings.NoBrowser\": true,\n     \"liveCoder.settings.proxy\": {\n         \"enable\": true\n     },\n-    \"liveCoder.settings.useLocalIp\": true\n+    \"liveCoder.settings.useLocalIp\": true,\n+    \"liveCoder.settings.useWebExt\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669746824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,6 +24,7 @@\n     \"liveCoder.settings.proxy\": {\n         \"enable\": true\n     },\n     \"liveCoder.settings.useLocalIp\": true,\n-    \"liveCoder.settings.useWebExt\": true\n+    \"liveCoder.settings.useWebExt\": false,\n+    \"livePreview.customExternalBrowser\": \"Chrome\"\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669764414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,6 +25,7 @@\n         \"enable\": true\n     },\n     \"liveCoder.settings.useLocalIp\": true,\n     \"liveCoder.settings.useWebExt\": false,\n-    \"livePreview.customExternalBrowser\": \"Chrome\"\n+    \"livePreview.customExternalBrowser\": \"Chrome\",\n+    \"livePreview.openPreviewTarget\": \"External Browser\"\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669781891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,6 +26,7 @@\n     },\n     \"liveCoder.settings.useLocalIp\": true,\n     \"liveCoder.settings.useWebExt\": false,\n     \"livePreview.customExternalBrowser\": \"Chrome\",\n-    \"livePreview.openPreviewTarget\": \"External Browser\"\n+    \"livePreview.openPreviewTarget\": \"External Browser\",\n+    \"livePreview.showServerStatusNotifications\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669792929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,6 +27,7 @@\n     \"liveCoder.settings.useLocalIp\": true,\n     \"liveCoder.settings.useWebExt\": false,\n     \"livePreview.customExternalBrowser\": \"Chrome\",\n     \"livePreview.openPreviewTarget\": \"External Browser\",\n-    \"livePreview.showServerStatusNotifications\": true\n+    \"livePreview.showServerStatusNotifications\": true,\n+    \"livePreview.tasks.runTaskWithExternalPreview\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669834725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,34 @@\n+{\n+    \"files.autoSave\": \"onWindowChange\",\n+    \"editor.wordWrap\": \"on\",\n+    \"files.exclude\": {\n+        \".history/*\": true,\n+        \".lh/*\": true\n+    },\n+    \"editor.bracketPairColorization.independentColorPoolPerBracketType\": true,\n+    \"editor.defaultFormatter\": \"svipas.code-autocomplete\",\n+    \"workbench.editor.enablePreviewFromCodeNavigation\": true,\n+    \"workbench.editor.enablePreviewFromQuickOpen\": true,\n+    \"scm.alwaysShowActions\": true,\n+    \"scm.alwaysShowRepositories\": true,\n+    \"remote.downloadExtensionsLocally\": true,\n+    \"notebook.output.wordWrap\": true,\n+    \"hqServer.browser.attachChromeDebugger\": true,\n+    \"html.trace.server\": \"messages\",\n+    \"html.format.indentInnerHtml\": true,\n+    \"html.format.indentHandlebars\": true,\n+    \"hqServer.browser.browserCmdLine\": \"chrome --incognito --headless --remote-debugging-port=9222\",\n+    \"vscode.liveHtmlPreviewerV2.disableWebViewStyling\": true,\n+    \"liveCoder.settings.fullReload\": true,\n+    \"liveCoder.settings.NoBrowser\": true,\n+    \"liveCoder.settings.proxy\": {\n+        \"enable\": true\n+    },\n+    \"liveCoder.settings.useLocalIp\": true,\n+    \"liveCoder.settings.useWebExt\": false,\n+    \"livePreview.customExternalBrowser\": \"Chrome\",\n+    \"livePreview.openPreviewTarget\": \"External Browser\",\n+    \"livePreview.showServerStatusNotifications\": true,\n+    \"livePreview.tasks.runTaskWithExternalPreview\": true,\n+    \"liveServer.settings.CustomBrowser\": \"chrome\"\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669850085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,39 +29,7 @@\n     \"livePreview.customExternalBrowser\": \"Chrome\",\n     \"livePreview.openPreviewTarget\": \"External Browser\",\n     \"livePreview.showServerStatusNotifications\": true,\n     \"livePreview.tasks.runTaskWithExternalPreview\": true,\n-    \"liveServer.settings.CustomBrowser\": \"chrome\"\n-}\n-{\n-    \"files.autoSave\": \"onWindowChange\",\n-    \"editor.wordWrap\": \"on\",\n-    \"files.exclude\": {\n-        \".history/*\": true,\n-        \".lh/*\": true\n-    },\n-    \"editor.bracketPairColorization.independentColorPoolPerBracketType\": true,\n-    \"editor.defaultFormatter\": \"svipas.code-autocomplete\",\n-    \"workbench.editor.enablePreviewFromCodeNavigation\": true,\n-    \"workbench.editor.enablePreviewFromQuickOpen\": true,\n-    \"scm.alwaysShowActions\": true,\n-    \"scm.alwaysShowRepositories\": true,\n-    \"remote.downloadExtensionsLocally\": true,\n-    \"notebook.output.wordWrap\": true,\n-    \"hqServer.browser.attachChromeDebugger\": true,\n-    \"html.trace.server\": \"messages\",\n-    \"html.format.indentInnerHtml\": true,\n-    \"html.format.indentHandlebars\": true,\n-    \"hqServer.browser.browserCmdLine\": \"chrome --incognito --headless --remote-debugging-port=9222\",\n-    \"vscode.liveHtmlPreviewerV2.disableWebViewStyling\": true,\n-    \"liveCoder.settings.fullReload\": true,\n-    \"liveCoder.settings.NoBrowser\": true,\n-    \"liveCoder.settings.proxy\": {\n-        \"enable\": true\n-    },\n-    \"liveCoder.settings.useLocalIp\": true,\n-    \"liveCoder.settings.useWebExt\": false,\n-    \"livePreview.customExternalBrowser\": \"Chrome\",\n-    \"livePreview.openPreviewTarget\": \"External Browser\",\n-    \"livePreview.showServerStatusNotifications\": true,\n-    \"livePreview.tasks.runTaskWithExternalPreview\": true\n+    \"liveServer.settings.CustomBrowser\": \"chrome\",\n+    \"liveServer.settings.NoBrowser\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669861140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,6 +30,9 @@\n     \"livePreview.openPreviewTarget\": \"External Browser\",\n     \"livePreview.showServerStatusNotifications\": true,\n     \"livePreview.tasks.runTaskWithExternalPreview\": true,\n     \"liveServer.settings.CustomBrowser\": \"chrome\",\n-    \"liveServer.settings.NoBrowser\": true\n+    \"liveServer.settings.NoBrowser\": true,\n+    \"liveServer.settings.proxy\": {\n+        \"enable\": true\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669872635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,6 +33,7 @@\n     \"liveServer.settings.CustomBrowser\": \"chrome\",\n     \"liveServer.settings.NoBrowser\": true,\n     \"liveServer.settings.proxy\": {\n         \"enable\": true\n-    }\n+    },\n+    \"liveServer.settings.useLocalIp\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669883087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,6 +34,7 @@\n     \"liveServer.settings.NoBrowser\": true,\n     \"liveServer.settings.proxy\": {\n         \"enable\": true\n     },\n-    \"liveServer.settings.useLocalIp\": true\n+    \"liveServer.settings.useLocalIp\": true,\n+    \"liveServer.settings.useWebExt\": false\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669890486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,6 +35,7 @@\n     \"liveServer.settings.proxy\": {\n         \"enable\": true\n     },\n     \"liveServer.settings.useLocalIp\": true,\n-    \"liveServer.settings.useWebExt\": false\n+    \"liveServer.settings.useWebExt\": false,\n+    \"liveServer.settings.useBrowserPreview\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669892517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,6 +36,6 @@\n         \"enable\": true\n     },\n     \"liveServer.settings.useLocalIp\": true,\n     \"liveServer.settings.useWebExt\": false,\n-    \"liveServer.settings.useBrowserPreview\": true\n+    \"liveServer.settings.useBrowserPreview\": false\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669922775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,6 +36,7 @@\n         \"enable\": true\n     },\n     \"liveServer.settings.useLocalIp\": true,\n     \"liveServer.settings.useWebExt\": false,\n-    \"liveServer.settings.useBrowserPreview\": false\n+    \"liveServer.settings.useBrowserPreview\": false,\n+    \"local-history.absolute\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669975935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,6 +37,7 @@\n     },\n     \"liveServer.settings.useLocalIp\": true,\n     \"liveServer.settings.useWebExt\": false,\n     \"liveServer.settings.useBrowserPreview\": false,\n-    \"local-history.absolute\": true\n+    \"local-history.absolute\": false,\n+    \"scm-buttons.showGitCommitAll\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669987963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,6 +38,9 @@\n     \"liveServer.settings.useLocalIp\": true,\n     \"liveServer.settings.useWebExt\": false,\n     \"liveServer.settings.useBrowserPreview\": false,\n     \"local-history.absolute\": false,\n-    \"scm-buttons.showGitCommitAll\": true\n+    \"scm-buttons.showGitCommitAll\": true,\n+    \"scm-buttons.showGitCheckout\": true,\n+    \"scm-buttons.showGitPullRebase\": true,\n+    \"scm-buttons.showGitPullFrom\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688669998864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,6 +41,9 @@\n     \"local-history.absolute\": false,\n     \"scm-buttons.showGitCommitAll\": true,\n     \"scm-buttons.showGitCheckout\": true,\n     \"scm-buttons.showGitPullRebase\": true,\n-    \"scm-buttons.showGitPullFrom\": true\n+    \"scm-buttons.showGitPullFrom\": true,\n+    \"scm-buttons.showGitPushTo\": true,\n+    \"scm-buttons.showGitShowOutput\": true,\n+    \"scm-buttons.showGitStageAll\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688670001302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,6 +44,7 @@\n     \"scm-buttons.showGitPullRebase\": true,\n     \"scm-buttons.showGitPullFrom\": true,\n     \"scm-buttons.showGitPushTo\": true,\n     \"scm-buttons.showGitShowOutput\": true,\n-    \"scm-buttons.showGitStageAll\": true\n+    \"scm-buttons.showGitStageAll\": true,\n+    \"scm-buttons.showGitStash\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688670010044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,6 +45,7 @@\n     \"scm-buttons.showGitPullFrom\": true,\n     \"scm-buttons.showGitPushTo\": true,\n     \"scm-buttons.showGitShowOutput\": true,\n     \"scm-buttons.showGitStageAll\": true,\n-    \"scm-buttons.showGitStash\": true\n+    \"scm-buttons.showGitStash\": true,\n+    \"tabnine.receiveBetaChannelUpdates\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688670014103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,6 +46,6 @@\n     \"scm-buttons.showGitPushTo\": true,\n     \"scm-buttons.showGitShowOutput\": true,\n     \"scm-buttons.showGitStageAll\": true,\n     \"scm-buttons.showGitStash\": true,\n-    \"tabnine.receiveBetaChannelUpdates\": true\n+    \"tabnine.receiveBetaChannelUpdates\": false\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688670025631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,6 +46,7 @@\n     \"scm-buttons.showGitPushTo\": true,\n     \"scm-buttons.showGitShowOutput\": true,\n     \"scm-buttons.showGitStageAll\": true,\n     \"scm-buttons.showGitStash\": true,\n-    \"tabnine.receiveBetaChannelUpdates\": false\n+    \"tabnine.receiveBetaChannelUpdates\": false,\n+    \"scm-buttons.showGitUnstageAll\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688670027902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,6 +47,7 @@\n     \"scm-buttons.showGitShowOutput\": true,\n     \"scm-buttons.showGitStageAll\": true,\n     \"scm-buttons.showGitStash\": true,\n     \"tabnine.receiveBetaChannelUpdates\": false,\n-    \"scm-buttons.showGitUnstageAll\": true\n+    \"scm-buttons.showGitUnstageAll\": true,\n+    \"scm-buttons.showGitUndoCommit\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688670045969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,6 +53,7 @@\n     \"scm-buttons.showGitStashPopLatest\": true,\n     \"scm-buttons.showGitStashPop\": true,\n     \"scm-buttons.showGitStashApply\": true,\n     \"scm-buttons.showGitStashDrop\": true,\n-    \"scm-buttons.showGitStashIncludeUntacked\": true\n+    \"scm-buttons.showGitStashIncludeUntacked\": true,\n+    \"scm-buttons.showGitStashApplyLatest\": true\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688670061915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,6 +56,7 @@\n     \"scm-buttons.showGitStashDrop\": true,\n     \"scm-buttons.showGitStashIncludeUntacked\": true,\n     \"scm-buttons.showGitStashApplyLatest\": true,\n     \"scm-buttons.showGitCommitStaged\": true,\n-    \"scm-buttons.showGitCommitStagedSigned\": true\n+    \"scm-buttons.showGitCommitStagedSigned\": true,\n+    \"scm-buttons.showGitPublish\": true\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1688668767362,
+            "name": "Commit-0",
+            "content": "{\n    \"files.autoSave\": \"onWindowChange\"\n}"
+        }
+    ]
+}
