@@ -18,7 +18,12 @@ function readFormData() {
 
   var formData = {};
     formData["date"] = document.getElementById("date").value;
-    formData["flavor"] = document.getElementById("flavor").value;
+    var flavorDropDown = document.getElementById("flavor");
+    if (flavorDropDown.value === "newFlavor") {
+        formData["flavor"] = document.getElementById("newFlavorInput").value;
+    } else {
+        formData["flavor"] = flavorDropDown.value;
+    }
     formData["productPrice"] = document.getElementById("productPrice").value;
     formData["quantityPurchased"] = document.getElementById("quantityPurchased").value;
     formData["quantityRemaining"] = document.getElementById("quantityRemaining").value;
@@ -83,6 +88,26 @@ function resetForm() {
     document.getElementById("productPrice").value = '';
     document.getElementById("quantityPurchased").value = '';
     document.getElementById("quantityRemaining").value = '';
-    document.getElementById("order").value = '';
+    document.getElementById("order").checked = false;
     selectedRow = null;
+}
+
+// Program to check the radio button automatically
+function radioChecked() {
+  const quantityRemaining = parseInt(document.getElementById("quantityRemaining").value);
+  if (quantityRemaining < 5) {
+      document.getElementById("order").checked = true;
+  } else {
+      document.getElementById("noorder").checked = true;
+  }
+}
+
+function toggleNewFlavorInput() {
+  const flavorDropDown = document.getElementById("flavor");
+  const newFlavorInput = document.getElementById("newFlavorInput");
+  if (flavorDropDown.value === "newFlavor") {
+      newFlavorInput.style.display = "block";
+  } else {
+      newFlavorInput.style.display = "none";
+  }
 }

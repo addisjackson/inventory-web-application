@@ -46,15 +46,15 @@
                         </div>
                         <div class="datename">
                             <label for="flavor">Flavor:</label>
-                            <select id="flavor" onblur="toggleNewFlavorInput()">
+                            <select id="flavor" onchange="toggleNewFlavorInput()">
                                 <option value="Vanilla">Vanilla</option>
-                              <option value="Chocolate">Chocolate</option>
+                                <option value="Chocolate">Chocolate</option>
                                 <option value="Strawberry">Strawberry</option>
                                 <option value="Cookies and Cream">Cookies [&] Cream</option>
                                 <option value="Cookie Dough">Cookie Dough</option>
                                 <option value="Butter Pecan">Butter Pecan</option>
                                 <option value="Birthday Cake">Birthday Cake</option>
-                              <option value="Rocky Road">Rocky Road</option>
+                                <option value="Rocky Road">Rocky Road</option>
                                 <option value="Coffee">Coffee</option>
                                 <option value="Pistachio">Pistachio</option>
                                 <option value="Chocolate Chip">Chocolate Chip</option>
@@ -77,7 +77,7 @@
                         </div>
                         <div>
                             <label for="quantityRemaining">Quantity Remaining</label>
-                            <input type="number" name="quantityRemaining" id="quantityRemaining">
+                            <input type="number" name="quantityRemaining" id="quantityRemaining" oninput="radioChecked()">
                         </div>
                         <div>
                             <label for="order">yes</label>
