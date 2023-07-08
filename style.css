@@ -15,20 +15,26 @@ h1, h2, h3, .tel, .slogan {
     text-align: center;
     color:darkcyan;
 }
-.hours, #address {
+
+.address {
+    text-align: center;
+}
+
+.address-hours {
     display: inline-block;
+    margin: 0 140px;
+    text-align: left;
+    padding: 80px;
+    color: darkcyan;
 }
 
 .hours {
     margin-right: 170px;
     text-align : right;
-    padding-left: 800px;
+    padding-left: 80px;
 }
 
-.address {
-    margin-left: 160px;
-    text-align: left;
-}
+
 
 .slogan {
     text-align: center;
